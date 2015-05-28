@@ -45,8 +45,8 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 /**
 * Email constants
 */
-define('ADMIN_EMAIL', 'sanjay@parextech.com');
-define('FROM_EMAIL', 'mitesh24shah@gmail.com');
+define('ADMIN_EMAIL', 'dx.replyme@gmail.com');
+define('FROM_EMAIL', 'dx.replyme@gmail.com');
 define('SUBJECT_CONTACT_ADMIN', 'Contact us');
 define('FROM_NAME', 'Dx Chat');
 define('SUBJECT_LOGIN_INFO', 'Login info');

@@ -175,7 +175,7 @@ class Signup extends CI_Controller {
 			$flash_arr = array('flash_type' => 'success',
 				'flash_msg' => 'Welcome to DX chat.'
 			);
-			$retFlg = 1;
+			$retFlg = 1; 
 		} else {
 			$flash_arr = array('flash_type' => 'error',
 				'flash_msg' => 'An error occurred while processing.'

@@ -59,8 +59,11 @@
 							<span style="color:#ff5f00">Subscription Reminder!</span>
 						</h1>
 						
+						<h3 style="margin:0;padding:0;display:block;font-family:Helvetica;font-size:25px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:-1px;text-align:left;color:#606060!important">
+							<span style="color:#ff5f00">Subscription will be expire after seen days!</span>
+						</h3>
 						<p style="margin:1em 0;padding:0;color:#606060;font-family:Helvetica;font-size:15px;line-height:150%;text-align:left">
-							<span style="color:#666666">Dear {$name},<br/>
+							<span style="color:#666666">Dear <?php echo $user->u_fname." ".$user->u_lname; ?>,<br/>
 							<br/>
 							This is a friendly reminder that your membership subscription fee will soon be due.  You can review the details of your Member's Benefit Statement and confirm or make payment as appropriate via our upgrade subscription / membership section. </span>
 							<br/><br/><span style="font-family:arial,sans-serif;line-height:normal;color:#666666;">This payment is overdue for 30 days. Because of the delay in renewal, we have no choice left and your account will suspended and all your chat records will be clear after 30 days.</span><br/>
@@ -78,7 +81,7 @@
 							</span><br/>
 							
 							<span style="color:#666666">Sincerely,<br/>
-							{$agentBrokerName}</span>
+							by reply team</span>
 						</p>
 					</td>
 				</tr></tbody></table>

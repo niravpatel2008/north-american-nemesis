@@ -163,7 +163,7 @@ class Signup extends CI_Controller {
 			
 			## send mail
 			//$login_details = array('u_email' => $user[0]->email,'u_password' => $newpassword);
-			$userRes = $user[0];
+			//$userRes = $user[0];
 			$emailTpl = $this->load->view('email_templates/signup', '', true);
 
 			$search = array('{name}','{username}','{OrgName}');

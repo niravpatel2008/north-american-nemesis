@@ -1,5 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
-require_once("db.php");
+require_once("dbw.php");
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
@@ -49,9 +49,9 @@ require_once("db.php");
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'root';
-$db['default']['password'] = '';
+$db['default']['hostname'] = DB_HOSTNAME;
+$db['default']['username'] = DB_USERNAME;
+$db['default']['password'] = DB_PASSWORD;
 $db['default']['database'] = 'dx_chat';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';

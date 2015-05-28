@@ -1,3 +1,9 @@
+<?php
+if(isset($this->front_session) && $this->front_session['u_id'] > 0)
+	$isLogin = true;
+else
+	$isLogin = false;
+?>
 <section id="main-slider" class="carousel">
         <div class="carousel-inner">
             <div class="item active">
@@ -336,7 +342,13 @@
 							<li>Option for operator set online or offline mode</li>
 							<li>Option to see what user is typing before he sends a message</li>
 							<li style="font-weight:bold;font-size:19px;color:#777;">and much more lots...</li>
-                            <li class="plan-action"><a href="<?=base_url()?>signup" class="btn btn-primary btn-lg">Signup</a></li>
+                            <li class="plan-action">
+							<?php if($isLogin == true){?>
+								<a href="<?=base_url();?>dashboard/plan_upgrade/" class="btn btn-primary btn-lg">Upgrade Plan</a>
+							<?php }else{?>
+								<a href="<?=base_url();?>signup" class="btn btn-primary btn-lg">Signup</a>
+							<?php }?>
+							</li>
                         </ul>
                     </div><!--/.col-sm-4-->
                     <div class="col-sm-4">
@@ -364,7 +376,13 @@
 							<li>Option for operator set online or offline mode</li>
 							<li>Option to see what user is typing before he sends a message</li>
 							<li style="font-weight:bold;font-size:19px;color:#777;">and much more lots...</li>
-                            <li class="plan-action"><a href="<?=base_url()?>signup" class="btn btn-primary btn-lg">Signup</a></li>
+                            <li class="plan-action">
+							<?php if($isLogin == true){?>
+								<a href="<?=base_url();?>dashboard/plan_upgrade/" class="btn btn-primary btn-lg">Upgrade Plan</a>
+							<?php }else{?>
+								<a href="<?=base_url();?>signup" class="btn btn-primary btn-lg">Signup</a>
+							<?php }?>
+							</li>
                         </ul>
                     </div><!--/.col-sm-4-->
                     <div class="col-sm-4">
@@ -392,7 +410,13 @@
 							<li>Option for operator set online or offline mode</li>
 							<li>Option to see what user is typing before he sends a message</li>
 							<li style="font-weight:bold;font-size:19px;color:#777;">and much more lots...</li>
-                            <li class="plan-action"><a href="<?=base_url()?>signup" class="btn btn-primary btn-lg">Signup</a></li>
+                            <li class="plan-action">
+							<?php if($isLogin == true){?>
+								<a href="<?=base_url();?>dashboard/plan_upgrade/" class="btn btn-primary btn-lg">Upgrade Plan</a>
+							<?php }else{?>
+								<a href="<?=base_url();?>signup" class="btn btn-primary btn-lg">Signup</a>
+							<?php }?>
+							</li>
                         </ul>
                     </div><!--/.col-sm-4-->
                 </div> 

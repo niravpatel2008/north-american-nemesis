@@ -118,6 +118,39 @@ class Signup extends CI_Controller {
 		$plan_data['up_u_id']=$ret;
 		$plan = $this->common_model->insertData('user_plan', $plan_data);
 		$u_email = $insert_data['u_email'];
+
+		$paypalResp = $this->session->userdata('payment_session');
+
+		if(isset($paypalResp['payment']))
+		{
+			$paidPlan=true;#tmp flag for redirection
+			if(!empty($paypalResp['payment']))
+			{
+				$payment = $paypalResp['payment'];
+				$token = $payment['TOKEN']; 
+				$status = $payment['ACK'];
+
+				$insert_trans_data = array(
+				't_upid'=>$plan,
+				't_creationdate'=>date('Y-m-d H:i:s'),
+				't_packageid'=>$plan_data['up_package_id'],
+				't_paypaltoken'=>$token,
+				't_status'=>$status
+				);
+				$resultVar = $this->common_model->insertData('transaction', $insert_trans_data);
+			}
+			else
+			{
+				$flash_arr = array('flash_type' => 'error',
+				'flash_msg' => 'An error occured while processing payment.'
+				);
+				$this->session->set_flashdata('flash_arr', $flash_arr);
+				redirect("/");
+			}
+		}
+		else
+			$paidPlan=false;#tmp flag for redirection
+
 		# create session
 		$data = array('u_id' => $ret,
 			'u_email' => $u_email,
@@ -150,8 +183,12 @@ class Signup extends CI_Controller {
 			$retFlg = 0;
 		}
 		$this->session->set_flashdata('flash_arr', $flash_arr);
-		//echo base_url()."dashboard";exit;
-		redirect(base_url()."dashboard");
+		if($paidPlan == false)
+		{
+			echo base_url()."dashboard";exit;
+		}
+		else
+			redirect(base_url()."dashboard");
 	}
 
 	public function returnpay() {

@@ -12,7 +12,7 @@ class Dashboard extends CI_Controller {
     }
 
     public function index() {
-
+		//echo '<pre>';print_r($this->front_session);die;
 		$where = array('u_id' => $this->front_session['u_id']);
 		$user = $this->common_model->joinData('users','user_plan',"users.u_id=user_plan.up_u_id", '*', $where);
 		$data['user'] = $user;

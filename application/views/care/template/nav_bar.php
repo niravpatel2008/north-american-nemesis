@@ -34,7 +34,7 @@
 	<a href="#menu-toggle" style="float:left;font-size:30px;" id="menu-toggle"><i class="glyphicon glyphicon-align-justify" ></i></a>
 		
 		<div class="signup-btn">
-			<a href="<?=base_url()?>dashboard/change_password" >Change Password</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?=base_url()?>index/signout/" >Log Out</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="<?=base_url()?>" target="_blank">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?=base_url()?>dashboard/change_password" >Change Password</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?=base_url()?>index/signout/" >Log Out</a>&nbsp;&nbsp;&nbsp;&nbsp;
 		</div>
 	</div>
 	<!-- /#sidebar-wrapper -->

@@ -159,10 +159,10 @@ class Dashboard extends CI_Controller {
 			
 			if ($plan > 0) {
 				
-				//$where = array('u_id' => $this->front_session['u_id']);
-				//$user = $this->common_model->selectData('users', '*', $where);
+				$where = array('u_id' => $this->front_session['u_id']);
+				$user = $this->common_model->selectData('users', '*', $where);
 								
-				$this->common_model->setupApplication($plan_data);
+				$this->common_model->setupApplication($plan_data,$user[0]);
 				
 				## send mail
 				// $emailTpl = $this->load->view('email_templates/signup', '', true);

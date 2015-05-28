@@ -126,7 +126,7 @@ class Signup extends CI_Controller {
 		$this->session->set_userdata('front_session', $data);
 
 		if ($plan > 0) {
-			$this->common_model->setupApplication($plan_data);
+			$this->common_model->setupApplication($plan_data,$insert_data);
 			
 			## send mail
 			//$login_details = array('u_email' => $user[0]->email,'u_password' => $newpassword);

@@ -181,9 +181,15 @@ class common_model extends CI_Model{
 		$path = realpath('./chat_db/master_chat.sql');
 			 
 		$this->load->dbforge();
-		$dbname = $data['up_subdomain']."_chat";
-		if ($this->dbforge->create_database($dbname))
+		$dbDetail=$this->selectData("user_database",'*', array("ud_allocated"=>"0"),"ud_id","ASC","",'1');
+		
+		if (count($dbDetail)!=0)
 		{
+			$dbname=$dbDetail[0]->ud_db_name;
+			$setArray = array('ud_uid' => $data['up_u_id'],'ud_allocated'=>'1');
+			$where = 'ud_id ='.$dbDetail[0]->ud_id;
+			$this->updateData('user_database', $setArray, $where);
+			
 			$this->db->query('use '.$dbname);
 			$lines = file($path, true);
 			$templine = "";
@@ -201,7 +207,7 @@ class common_model extends CI_Model{
 					echo "<br>";*/
 					$templine = '';
 				}
-			}
+			} 
 			$userEmail=$user['u_email'];
 			$userFname=$user['u_fname'];
 			$userLname=$user['u_lname'];

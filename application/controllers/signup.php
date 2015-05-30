@@ -159,23 +159,32 @@ class Signup extends CI_Controller {
 		$this->session->set_userdata('front_session', $data);
 
 		if ($plan > 0) {
-			$this->common_model->setupApplication($plan_data,$insert_data);
 			
-			## send mail
-			//$login_details = array('u_email' => $user[0]->email,'u_password' => $newpassword);
-			//$userRes = $user[0];
-			$emailTpl = $this->load->view('email_templates/signup', '', true);
+			$setup=$this->common_model->setupApplication($plan_data,$insert_data);
+			if($setup==1)
+			{
+				## send mail
+				//$login_details = array('u_email' => $user[0]->email,'u_password' => $newpassword);
+				//$userRes = $user[0];
+				$emailTpl = $this->load->view('email_templates/signup', '', true);
 
-			$search = array('{name}','{username}','{OrgName}');
-			$replace = array($insert_data['u_fname']." ".$insert_data['u_lname'],$insert_data['u_email'],'ChatAdmin');
-			$emailTpl = str_replace($search, $replace, $emailTpl);
+				$search = array('{name}','{username}','{OrgName}');
+				$replace = array($insert_data['u_fname']." ".$insert_data['u_lname'],$insert_data['u_email'],'ChatAdmin');
+				$emailTpl = str_replace($search, $replace, $emailTpl);
 
-			$ret = sendEmail($u_email, SUBJECT_LOGIN_INFO, $emailTpl, FROM_EMAIL, FROM_NAME);
+				$ret = sendEmail($u_email, SUBJECT_LOGIN_INFO, $emailTpl, FROM_EMAIL, FROM_NAME);
 
-			$flash_arr = array('flash_type' => 'success',
-				'flash_msg' => 'Welcome to DX chat.'
+				$flash_arr = array('flash_type' => 'success',
+					'flash_msg' => 'Welcome to DX chat.'
+				);
+				$retFlg = 1; 
+			}
+			else{
+				$flash_arr = array('flash_type' => 'error',
+				'flash_msg' => 'There is some technical  issue, Please try after some time.'
 			);
-			$retFlg = 1; 
+			$retFlg = 0;
+			}
 		} else {
 			$flash_arr = array('flash_type' => 'error',
 				'flash_msg' => 'An error occurred while processing.'
@@ -183,6 +192,11 @@ class Signup extends CI_Controller {
 			$retFlg = 0;
 		}
 		$this->session->set_flashdata('flash_arr', $flash_arr);
+		if($retFlg == 0)
+		{
+			echo base_url()."signup";exit;
+		}
+		
 		if($paidPlan == false)
 		{
 			echo base_url()."dashboard";exit;

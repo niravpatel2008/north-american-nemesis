@@ -240,6 +240,11 @@ class common_model extends CI_Model{
 			
 			$arrayContent = "<?php $arrayContent ?>";
 			file_put_contents("./chattool/settings/".$data['up_subdomain'].".settings.ini.php",$arrayContent);
+			return 1;
+		}
+		else{
+			return 0;
+			
 		}
 	}
 }

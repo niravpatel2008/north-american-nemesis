@@ -32,22 +32,22 @@
 			$useFm = $currentUser->hasAccessTo('lhform','manage_fm');
 		?>		
 		<?php if ($useFm || $useBo || $useChatbox || $useFaq || $useQuestionary) : ?>
-		<li class="dropdown">
+		<!--li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Extra modules')?> <span class="caret"></span></a>
             <ul class="dropdown-menu" role="menu">
              
-			  <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/questionary.tpl.php'));?>
+			  <?php //include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/questionary.tpl.php'));?>
 			  			  
-			  <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/faq.tpl.php'));?>
+			  <?php //include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/faq.tpl.php'));?>
 			  
-			  <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/chatbox.tpl.php'));?>
+			  <?php //include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/chatbox.tpl.php'));?>
 			  	
-			  <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/browseoffer.tpl.php'));?>
+			  <?php //include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/browseoffer.tpl.php'));?>
               
-              <?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/form.tpl.php'));?>		  				  
+              <?php //include(erLhcoreClassDesign::designtpl('pagelayouts/parts/modules_menu/form.tpl.php'));?>		  				  
 			            
             </ul>
-        </li>		
+        </li-->		
 		<?php endif; ?> 
 		
         <?php if ($currentUser->hasAccessTo('lhsystem','use')) : ?>

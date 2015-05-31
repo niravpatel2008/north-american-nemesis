@@ -66,12 +66,18 @@ class Signup extends CI_Controller {
 						/* Paypal payment code */
 						$this->load->helper('paypal');
 						$paypal = new wp_paypal_gateway (true);
-					 
+
+						$pkgDetail = $this->common_model->selectData('packages',"*", array("package_id"=>$packageId));
+						$package_name = $pkgDetail[0]->package_name;
+						$package_price = $pkgDetail[0]->package_price;
+						$package_desc = $package_name." (".$pkgDetail[0]->package_description . ") Subscription for ".$post['website'];
+					
 						// Required Parameter for the getExpresscheckout
 						$param = array(
-							'amount' => 200,
+							'amount' => $package_price,
 							'currency_code' => 'USD',
 							'payment_action' => 'Sale',
+							'package_desc' => $package_desc,
 						);
 						$param["return_url"] = base_url().PAYPAL_API_RETURN;
 						$param["cancel_url"] = base_url().PAYPAL_API_CANCEL;

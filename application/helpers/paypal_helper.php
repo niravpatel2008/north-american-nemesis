@@ -83,6 +83,7 @@ class wp_paypal_gateway
         'return_url' => 'RETURNURL',
         'cancel_url' => 'CANCELURL',
         'payment_action' => 'PAYMENTREQUEST_0_PAYMENTACTION',
+        'package_desc' => 'PAYMENTREQUEST_0_DESC',
         'token' => 'TOKEN',
         'payer_id' => 'PAYERID'
     );
@@ -182,7 +183,9 @@ class wp_paypal_gateway
 		curl_setopt($handle, CURLOPT_POSTFIELDS,      http_build_query($request["body"]));
 
 		$response = curl_exec($handle);
+		//echo $response;exit;
 		$response = parse_str($response,$res);
+		//print_r($response);exit;
 		
 		if("SUCCESS" == strtoupper($res["ACK"]) || "SUCCESSWITHWARNING" == strtoupper($res["ACK"]))
         {

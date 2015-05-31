@@ -101,12 +101,19 @@ class Dashboard extends CI_Controller {
 					$this->load->helper('paypal');
 					$paypal = new wp_paypal_gateway (true);
 					
+					
+					$pkgDetail = $this->common_model->selectData('packages',"*", array("package_id"=>$packageId));
+					$package_name = $pkgDetail[0]->package_name;
+					$package_price = $pkgDetail[0]->package_price;
+					$package_desc = $package_name." (".$pkgDetail[0]->package_description . ") Subscription for ".$post['website'];
 					// Required Parameter for the getExpresscheckout
 					$param = array(
-						'amount' => 200,
+						'amount' => $package_price,
 						'currency_code' => 'USD',
 						'payment_action' => 'Sale',
+						'package_desc' => $package_desc,
 					);
+
 					$param["return_url"] = base_url()."dashboard/returnpay";
 					$param["cancel_url"] = base_url().PAYPAL_API_CANCEL;
 					// Display the response if successful or the debug info
@@ -233,19 +240,29 @@ class Dashboard extends CI_Controller {
 		$user = $this->common_model->selectData('users', '*', $where);
 		$where = array('up_u_id' => $this->front_session['u_id']);
 		$user_plan = $this->common_model->selectData('user_plan', '*', $where);
-        if ($post) {
+        if ($post && $post['planSelect'] != "1") {
 			$this->session->set_userdata('tmpPostParam',$post);//temp store plan info in sessin var.
+			$domainId = $post['domainSelect'];
+			$packageId = $post['planSelect'];
+			$website = $this->common_model->selectData('user_plan', 'up_website', array("up_id"=>$domainId));
 
 			/* Paypal payment code */
 			$this->load->helper('paypal');
 			$paypal = new wp_paypal_gateway (true);
-			
+						
+			$pkgDetail = $this->common_model->selectData('packages',"*", array("package_id"=>$packageId));
+			$package_name = $pkgDetail[0]->package_name;
+			$package_price = $pkgDetail[0]->package_price;
+			$package_desc = $package_name." (".$pkgDetail[0]->package_description . ") Subscription upgraded for ".$website[0]->up_website;
+		
 			// Required Parameter for the getExpresscheckout
 			$param = array(
-				'amount' => 200,
+				'amount' => $package_price,
 				'currency_code' => 'USD',
 				'payment_action' => 'Sale',
+				'package_desc' => $package_desc,
 			);
+
 			$param["return_url"] = base_url()."dashboard/planUpgradeSuccess";
 			$param["cancel_url"] = base_url().PAYPAL_API_CANCEL;
 			// Display the response if successful or the debug info

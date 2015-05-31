@@ -89,13 +89,13 @@
 				</div>
 		<?php endif; ?>
 	
-	    <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/faq_embed.tpl.php'));?>
+	    <?php //include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/faq_embed.tpl.php'));?>
 	
-	    <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/questionary_embed.tpl.php'));?>
+	    <?php //include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/questionary_embed.tpl.php'));?>
 	
-	    <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/chatbox_embed.tpl.php'));?>
+	    <?php //include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/chatbox_embed.tpl.php'));?>
 	    
-	    <?php include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/browse_offers_embed.tpl.php'));?>
+	    <?php//	include(erLhcoreClassDesign::designtpl('lhsystem/configuration_links/browse_offers_embed.tpl.php'));?>
 		
   	  </div>
 		</div>	

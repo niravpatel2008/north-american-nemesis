@@ -36,12 +36,21 @@ if (isset($_POST['Login']))
         $Error = erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Incorrect username or password');
         $tpl->set('errors',array($Error));
     } else {
-    	if ($redirect != '') {
-    		erLhcoreClassModule::redirect(base64_decode($redirect));
-    	} else {
-	        erLhcoreClassModule::redirect();
-	        exit;
-    	}
+		$cfgSite = erConfigClassLhConfig::getInstance();
+		if($cfgSite->getSetting('site','islive')=='Yes')
+		{
+			if ($redirect != '') {
+				erLhcoreClassModule::redirect(base64_decode($redirect));
+			} else {
+				erLhcoreClassModule::redirect();
+				exit;
+			}
+		}
+		else
+		{
+			 $Error = erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Your Subscription is expire');
+			$tpl->set('errors',array($Error));
+		}
     }
 }
 

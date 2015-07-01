@@ -8,6 +8,7 @@
       'locale' => 'en_EN',
       'theme' => 'defaulttheme',
       'installed' => true,
+      'islive' => 'Yes',
       'secrethash' => 'b218d00d7a',
       'debug_output' => false,
       'templatecache' => true,

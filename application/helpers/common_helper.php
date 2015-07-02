@@ -136,4 +136,20 @@
 		// $packageArr[3]=array('id'=>3,'name'=>'Enterprise','price'=>199,'duration'=>'1 Year');
 		return $packageArr;
 	}
+
+	function enableSite($domain)
+	{
+		$configFile = "./chattool/settings/$domain.settings.ini.php";
+		$configArr = file_get_contents($configFile);
+		$configArr = str_replace("'islive' => 'No'","'islive' => 'Yes'",$configArr);
+		file_put_contents($configFile,$configArr);
+	}
+
+	function disableSite($domain)
+	{
+		$configFile = "./chattool/settings/$domain.settings.ini.php";
+		$configArr = file_get_contents($configFile);
+		$configArr = str_replace("'islive' => 'Yes'","'islive' => 'No'",$configArr);
+		file_put_contents($configFile,$configArr);
+	}
 ?>

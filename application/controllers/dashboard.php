@@ -241,10 +241,13 @@ class Dashboard extends CI_Controller {
 		$where = array('up_u_id' => $this->front_session['u_id']);
 		$user_plan = $this->common_model->selectData('user_plan', '*', $where);
         if ($post && $post['planSelect'] != "1") {
-			$this->session->set_userdata('tmpPostParam',$post);//temp store plan info in sessin var.
 			$domainId = $post['domainSelect'];
 			$packageId = $post['planSelect'];
 			$website = $this->common_model->selectData('user_plan', 'up_website', array("up_id"=>$domainId));
+			
+			/*store information in session */
+			$post['subdomain'] = $website[0]->up_subdomain;
+			$this->session->set_userdata('tmpPostParam',$post);//temp store plan info in sessin var.
 
 			/* Paypal payment code */
 			$this->load->helper('paypal');
@@ -347,6 +350,7 @@ class Dashboard extends CI_Controller {
 			$data = array('up_package_id' => ($post['planSelect']),'up_package_expiry_date'=>$expDate);
 			$where = array('up_u_id'=>$hdnUid,'up_id'=>$post['domainSelect']);
 			$ret = $this->common_model->updateData('user_plan', $data,$where);
+			enableSite($post['subdomain']);
 		}
 		
 		if ($ret > 0) {

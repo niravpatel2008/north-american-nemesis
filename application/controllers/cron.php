@@ -13,6 +13,14 @@ class Cron extends CI_Controller {
 		
     }
 	public function reminder() {
+		/************  Fetch users domain which expires on today and disable chat**************/
+		$where1="DATEDIFF('".date('Y-m-d H:i:s')."',user_plan.up_package_expiry_date)<=0";
+		$expUsersTomorrow = $this->common_model->joinData('users','user_plan','users.u_id=user_plan.up_u_id',"*",$where1);
+		foreach($expUsersTomorrow as $value)
+		{
+			$subdomain = $value->up_subdomain;
+			disableSite($subdomain);
+		}
 		
 		/************  Fetch users domain which will expire on tomorrow **************/
 		$where1="DATEDIFF('".date('Y-m-d H:i:s')."',user_plan.up_package_expiry_date)=1";

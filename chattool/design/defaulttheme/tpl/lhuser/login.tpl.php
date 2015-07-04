@@ -17,7 +17,12 @@
 </div>
 
 <div class="form-group">
-    <label class="mb6"><input class="input-checkbox" type="checkbox" name="rememberMe" value="1"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Remember me');?></label>
+    <label class="mb6 checkbox"><input class="input-checkbox" type="checkbox" name="rememberMe" value="1">
+	<span class="checkbox-material">
+		<span class="check"></span>
+	</span>
+	<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Remember me');?>
+	</label>
 </div>
 
 <input type="submit" class="btn btn-primary" value="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Login');?>" name="Login" />&nbsp;<a class="btn btn-default" href="<?php echo erLhcoreClassDesign::baseurl('user/forgotpassword')?>"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/login','Password reminder')?></a>

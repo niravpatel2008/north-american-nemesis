@@ -10,7 +10,7 @@
 
 <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/top_menu.tpl.php'));?>
 
-<div class="container-fluid">
+<div class="container-fluid main-container">
 
 
 <?php include_once(erLhcoreClassDesign::designtpl('pagelayouts/parts/path.tpl.php'));?>
@@ -52,7 +52,7 @@
         	</div>
         </div>
 
-            <div class="panel panel-default panel-lhc" ng-show="pending_chats.list.length > 0 || active_chats.list.length > 0 || unread_chats.list.length > 0 || closed_chats.list.length > 0<?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/right_column_angular_conditions_multiinclude.tpl.php'));?>">
+            <div class="panel panel-lhc" ng-show="pending_chats.list.length > 0 || active_chats.list.length > 0 || unread_chats.list.length > 0 || closed_chats.list.length > 0<?php include(erLhcoreClassDesign::designtpl('pagelayouts/parts/right_column_angular_conditions_multiinclude.tpl.php'));?>">
             <?php if ($pendingTabEnabled == true) : ?>
             <div class="panel-heading" ng-if="pending_chats.list.length > 0"><a href="<?php echo erLhcoreClassDesign::baseurl('chat/pendingchats')?>"><i class="icon-chat chat-pending"></i> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('pagelayout/pagelayout','Pending chats');?></a></div>
             <div class="panel-body" id="right-pending-chats" ng-if="pending_chats.list.length > 0">

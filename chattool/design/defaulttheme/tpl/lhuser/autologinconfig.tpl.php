@@ -11,7 +11,7 @@
 	<div role="tabpanel">
 
 		<!-- Nav tabs -->
-		<ul class="nav nav-tabs" role="tablist">
+		<ul class="nav nav-pills" role="tablist">
 			<li role="presentation" class="active"><a href="#autologinsettings" aria-controls="autologinsettings" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('users/autologin','Auto login settings');?></a></li>	
 		</ul>
 
@@ -21,8 +21,14 @@
 			
 			     <p><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('users/autologin','This module can be used if you are generating autologin link. See site for code examples')?></p>
 			
-				<div class="form-group">
-					<label><input type="checkbox" name="enabled" value="on" <?php (isset($autologin_data['enabled']) && $autologin_data['enabled'] == 1) ? print 'checked="checked"' : print '' ?>" /> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('users/autologin','Enabled');?></label> 
+				<div class="form-group checkbox">
+					<label>
+						<input type="checkbox" name="enabled" value="on" <?php (isset($autologin_data['enabled']) && $autologin_data['enabled'] == 1) ? print 'checked="checked"' : print '' ?>" /> 
+						<span class="checkbox-material">
+							<span class="check"></span>
+						</span>
+						<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('users/autologin','Enabled');?>
+					</label> 
 				</div>
 				
 				<div class="form-group">

@@ -53,3 +53,18 @@
 	border: 1px solid #ccc;
 	padding:15px;
 }
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	background-color: #009688;
+}
+
+.datepicker.dropdown-menu {
+	-webkit-border-radius:0px !important;
+	-moz-border-radius:0px !important;
+	border-radius:0px !important;
+}
+
+.datepicker td.active.day, .datepicker th.active.day {
+	background:#009688 !important;
+	color:#FFF;
+}

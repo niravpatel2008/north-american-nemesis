@@ -5,7 +5,7 @@
 
 <div role="tabpanel">
 
-	<ul class="nav nav-tabs" role="tablist">
+	<ul class="nav nav-pills" role="tablist">
 		<li role="presentation" class="active"><a href="#system" aria-controls="system" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('system/configuration','System');?></a></li>
     
         <?php if ($currentUser->hasAccessTo('lhsystem','generate_js_tab')) : ?>

@@ -5,7 +5,7 @@
 <div class="online-user-info">
     <div role="tabpanel">
     	<!-- Nav tabs -->
-    	<ul class="nav nav-tabs" role="tablist">
+    	<ul class="nav nav-pills" role="tablist">
     		<li role="presentation" class="active"><a href="#panel1" aria-controls="panel1" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/adminchat','Visitor')?></a></li>
     		
     		<?php if ( erLhcoreClassModelChatConfig::fetch('track_footprint')->current_value == 1) : ?>

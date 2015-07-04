@@ -2,7 +2,7 @@
 
 <div role="tabpanel">
 	<!-- Nav tabs -->
-	<ul class="nav nav-tabs" role="tablist">
+	<ul class="nav nav-pills" role="tablist">
 		<li role="presentation" class="active"><a onclick="redrawAllCharts(500)" href="#panel1" aria-controls="panel1" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','Statistic');?></a></li>
 		<li role="presentation"><a href="#panel2" aria-controls="panel2" role="tab" data-toggle="tab"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/statistic','General');?></a></li>
 	</ul>

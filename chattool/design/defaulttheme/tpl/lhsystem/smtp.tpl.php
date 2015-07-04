@@ -39,7 +39,15 @@
 			</div>
 
 			<div role="tabpanel" class="tab-pane" id="SMTP">
-				<label><input type="checkbox" name="use_smtp" value="1" <?php isset($smtp_data['use_smtp']) && ($smtp_data['use_smtp'] == '1') ? print 'checked="checked"' : '' ?> /> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('system/smtp','SMTP enabled'); ?></label>
+				<div class="form-group checkbox">
+				<label>
+					<input type="checkbox" name="use_smtp" value="1" <?php isset($smtp_data['use_smtp']) && ($smtp_data['use_smtp'] == '1') ? print 'checked="checked"' : '' ?> /> 
+					<span class="checkbox-material">
+						<span class="check"></span>
+					</span>
+					<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('system/smtp','SMTP enabled'); ?>
+				</label>
+				</div>
 
 				<div class="form-group">
 					<label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('system/smtp','Login');?></label> <input type="text" class="form-control" name="username" value="<?php (isset($smtp_data['username']) && $smtp_data['username'] != '') ? print $smtp_data['username'] : print '' ?>" />

@@ -60,8 +60,14 @@ if ($pages->items_total > 0) {
         <textarea class="form-control" name="Message"><?php echo htmlspecialchars($canned_msg->msg);?></textarea>
     </div>
 
-    <div class="form-group">
-        <label><input type="checkbox" name="AutoSend" value="on" <?php $canned_msg->auto_send == 1 ? print 'checked="checked"' : ''?> /> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/cannedmsg','Automatically send this message to user then chat is accepted');?></label>
+    <div class="form-group checkbox">
+        <label>
+			<input type="checkbox" name="AutoSend" value="on" <?php $canned_msg->auto_send == 1 ? print 'checked="checked"' : ''?> /> 
+			<span class="checkbox-material">
+				<span class="check"></span>
+			</span>
+			<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('chat/cannedmsg','Automatically send this message to user then chat is accepted');?>
+		</label>
     </div>
     
     <div class="form-group">

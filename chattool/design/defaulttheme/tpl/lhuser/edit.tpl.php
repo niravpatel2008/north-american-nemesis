@@ -62,13 +62,23 @@
     		
     		<div class="row">
     		  <div class="col-xs-6">
-    		      <div class="form-group">
-        		      <label title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','Chat status will not change upon pending chat opening');?>"><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','Invisible mode')?>&nbsp;<input type="checkbox" value="on" name="UserInvisible" <?php echo $user->invisible_mode == 1 ? 'checked="checked"' : '' ?> /></label>
+    		      <div class="form-group checkbox">
+        		      <label title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','Chat status will not change upon pending chat opening');?>">
+					  <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','Invisible mode')?>&nbsp;<input type="checkbox" value="on" name="UserInvisible" <?php echo $user->invisible_mode == 1 ? 'checked="checked"' : '' ?> />
+					  <span class="checkbox-material">
+							<span class="check"></span>
+						</span>
+					  </label>
         		  </div>
     		  </div>
     		  <div class="col-xs-6">
-        		  <div class="form-group">
-        		      <label title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','User receives other operators permissions request');?>"><input type="checkbox" value="on" name="ReceivePermissionRequest" <?php echo $user->rec_per_req == 1 ? 'checked="checked"' : '' ?> /> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','User receives other operators permissions request')?></label>
+        		  <div class="form-group checkbox">
+        		      <label title="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','User receives other operators permissions request');?>">
+					  <input type="checkbox" value="on" name="ReceivePermissionRequest" <?php echo $user->rec_per_req == 1 ? 'checked="checked"' : '' ?> /> 
+					  <span class="checkbox-material">
+						<span class="check"></span>
+					</span>
+					  <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','User receives other operators permissions request')?></label>
         		  </div>
     		  </div>
     		</div>
@@ -92,7 +102,15 @@
     		<?php if ($user->has_photo) : ?>
     		<div class="form-group">
     			<img src="<?php echo $user->photo_path?>" alt="" width="50" /><br />
-    			<label><input type="checkbox" name="DeletePhoto" value="1" /> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','Delete')?></label>
+				<div class="form-group checkbox">
+					<label>
+						<input type="checkbox" name="DeletePhoto" value="1" /> 
+						<span class="checkbox-material">
+							<span class="check"></span>
+						</span>
+						<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','Delete')?>
+					</label>
+				</div>
     		</div>
     		<?php endif;?>
     		
@@ -107,9 +125,23 @@
                 )); ?>
     		</div>
     		
-    		<label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','Disabled')?>&nbsp;<input type="checkbox" value="on" name="UserDisabled" <?php echo $user->disabled == 1 ? 'checked="checked"' : '' ?> /></label><br>
+			<div class="form-group checkbox">
+				<label>
+				<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','Disabled')?>&nbsp;<input type="checkbox" value="on" name="UserDisabled" <?php echo $user->disabled == 1 ? 'checked="checked"' : '' ?> />
+				<span class="checkbox-material">
+					<span class="check"></span>
+				</span>
+				</label>
+			</div>
     		
-    		<label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','Do not show user status as online')?>&nbsp;<input type="checkbox" value="on" name="HideMyStatus" <?php echo $user->hide_online == 1 ? 'checked="checked"' : '' ?> /></label><br>
+			<div class="form-group checkbox">
+    		<label>
+				<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','Do not show user status as online')?>&nbsp;<input type="checkbox" value="on" name="HideMyStatus" <?php echo $user->hide_online == 1 ? 'checked="checked"' : '' ?> />
+				<span class="checkbox-material">
+					<span class="check"></span>
+				</span>
+			</label>
+			</div>
     		
     		<?php include(erLhcoreClassDesign::designtpl('lhkernel/csfr_token.tpl.php'));?>
     		
@@ -135,13 +167,31 @@
 		
 			<?php include(erLhcoreClassDesign::designtpl('lhkernel/csfr_token.tpl.php'));?>
 		
-		    <label><input type="checkbox" value="on" name="all_departments" <?php echo $user->all_departments == 1 ? 'checked="checked"' : '' ?> /><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','All departments')?></label><br>
+			<div class="form-group checkbox">
+		    <label>
+				<input type="checkbox" value="on" name="all_departments" <?php echo $user->all_departments == 1 ? 'checked="checked"' : '' ?> />
+				<span class="checkbox-material">
+					<span class="check"></span>
+				</span>
+				<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/new','All departments')?>
+			</label>
+			</div>
 		
 		    <?php foreach (erLhcoreClassDepartament::getDepartaments() as $departament) : ?>
-		        <label><input type="checkbox" name="UserDepartament[]" value="<?php echo $departament['id']?>"<?php in_array($departament['id'],$userDepartaments) ? print 'checked="checked"' : '';?>/><?php echo htmlspecialchars($departament['name'])?></label><br>
+				<div class="form-group checkbox">
+		        <label>
+					<input type="checkbox" name="UserDepartament[]" value="<?php echo $departament['id']?>"<?php in_array($departament['id'],$userDepartaments) ? print 'checked="checked"' : '';?>/>
+					<span class="checkbox-material">
+						<span class="check"></span>
+					</span>
+					<?php echo htmlspecialchars($departament['name'])?>
+				</label>
+				</div>
 		    <?php endforeach; ?>
-		    
+
+		    <div class="form-group">
 		    <input type="submit" class="btn btn-default" name="UpdateDepartaments_account" value="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/edit','Update');?>"/>
+			</div>
 		</form> 
     </div>
 	
@@ -149,10 +199,20 @@
 	   <form action="<?php echo erLhcoreClassDesign::baseurl('user/edit')?>/<?php echo $user->id?>#pending" method="post">
 
 	  	<?php include(erLhcoreClassDesign::designtpl('lhkernel/csfr_token.tpl.php'));?>
-
-		<label><input type="checkbox" name="showAllPendingEnabled" value="1" <?php erLhcoreClassModelUserSetting::getSetting('show_all_pending',1,$user->id) == 1 ? print 'checked="checked"' : '' ?> /> <?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','User can see all pending chats, not only assigned to him');?></label><br>
 		
-		<input type="submit" class="btn btn-default" name="UpdatePending_account" value="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','Update');?>"/>
+		<div class="form-group checkbox">
+		<label>
+			<input type="checkbox" name="showAllPendingEnabled" value="1" <?php erLhcoreClassModelUserSetting::getSetting('show_all_pending',1,$user->id) == 1 ? print 'checked="checked"' : '' ?> /> 
+			<span class="checkbox-material">
+				<span class="check"></span>
+			</span>
+			<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','User can see all pending chats, not only assigned to him');?>
+		</label>
+		</div>
+		
+		<div class="form-group">
+			<input type="submit" class="btn btn-default" name="UpdatePending_account" value="<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('user/account','Update');?>"/>
+		</div>
 	   </form>
     </div>
     <?php if (erLhcoreClassUser::instance()->hasAccessTo('lhpermission','see_permissions_users')) : ?>

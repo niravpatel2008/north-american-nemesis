@@ -10,7 +10,7 @@
 			<div role="tabpanel" class="tab-pane <?php if(!isset($edittab)) {echo 'active';} ?>" id="panel1">
     			  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
             	  <?php foreach ($items as $item) : ?>
-            	  <div class="panel panel-default">
+            	  <div class="panel">
                     <div class="panel-heading" role="tab" id="heading-faq-<?php echo $item->id ?>">
                       <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse-faq-<?php echo $item->id ?>" aria-expanded="true" aria-controls="collapse-faq-<?php echo $item->id ?>">

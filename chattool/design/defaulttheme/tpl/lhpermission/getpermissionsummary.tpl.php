@@ -2,7 +2,7 @@
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <?php foreach (erLhcoreClassModules::getModuleList() as $key => $Module) : ?>
   <?php $moduleFunctions = erLhcoreClassModules::getModuleFunctions($key); ?>
-  <div class="panel panel-default">
+  <div class="panel">
     <div class="panel-heading" role="tab" id="heading<?php echo $key?>One">     
         <a data-toggle="collapse" data-parent="#accordion" href="#<?php echo $key?>One" aria-expanded="true" aria-controls="collapseOne">
             <?php if (count($moduleFunctions) > 0) : $hasFunctions = true;?>

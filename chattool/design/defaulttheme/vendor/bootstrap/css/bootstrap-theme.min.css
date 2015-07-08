@@ -68,3 +68,25 @@
 	background:#009688 !important;
 	color:#FFF;
 }
+
+.checkbox-material{
+	margin-right:5px;
+}
+
+.checkbox .checkbox-material::before{
+	top: -5px;
+}
+
+.form-control{
+	border:1px solid #EEEEEE !important;
+	background:none !important;
+	height:35px !important;
+}
+
+.form-control:focus{
+	border:1px solid #EEEEEE !important;
+	background:none !important;
+	padding:6px !important;
+}
+
+label {font-weight: 600;}

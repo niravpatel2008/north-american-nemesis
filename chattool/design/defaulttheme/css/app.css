@@ -704,5 +704,26 @@ background-color:#337AB7;
 .nav>li>a{
 padding:10px 10px;
 }
+/*
 textarea{border: 1px solid rgba(0, 150, 136, 0.24)!important;}
-input[type='text'],input[type='password']{border: 1px solid rgba(0, 150, 136, 0.24)!important;}
+input[type='text'],input[type='password']{border: 1px solid rgba(0, 150, 136, 0.24)!important;}*/
+
+
+.nav-list-container {
+	width: 335px; right: 0px; bottom: 0px; position: fixed; margin: 0px;z-index:1;
+	background-color:#009688;
+}
+
+.nav-list-div { 
+	margin-bottom: 0px;
+}
+
+.nav-list-div ul {margin:0px;padding:0px;width:100%;text-align:center;}
+
+.nav-list-div ul li{margin:0px;padding:0px;display:inline-block;list-style:none;}
+
+.nav-list-div ul li a{
+	color: #fff;
+    display: block;
+    padding: 10px;
+}

@@ -16,8 +16,8 @@
     <input type="password" class="form-control" name="Password" value="" />
 </div>
 
-<div class="form-group">
-    <label class="mb6 checkbox"><input class="input-checkbox" type="checkbox" name="rememberMe" value="1">
+<div class="form-group checkbox">
+    <label class="mb6"><input class="input-checkbox" type="checkbox" name="rememberMe" value="1">
 	<span class="checkbox-material">
 		<span class="check"></span>
 	</span>

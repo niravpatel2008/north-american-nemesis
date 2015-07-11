@@ -105,97 +105,7 @@ else
                             <p>You can capture screen of customer's computer.This is best way give response without customer's explanation.</p>
                         </div>
                     </div><!--/.col-md-4-->
-					<div class="center gap">
-						<h3>All Services</h3>
-					</div><!--/.center-->
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Useful features</h4>
-                            <ul class="serviceUl">
-								<li>Multilanguage</li>
-								<li>Mobile friendly</li>
-								<li>Files upload</li>
-								<li>Multiple chats same time</li>
-								<li>Resume chat</li>
-								<li>Smiles and few other hidden features</li>
-								<li>Dekstop client supports HTTPS</li>
-							</ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Fast and reliable</h4>
-                            <ul class="serviceUl">
-								<li>Easy setup and moderation</li>
-								<li>Mobile friendly</li>
-								<li>Links recognition</li>
-								<li>Online users map</li>
-								<li>Flexible permission system</li>
-								<li>No third parties cookies dependency</li>
-								<li>Chat search</li>
-							</ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>User Interface & Enhanced Features</h4>
-                            <ul class="serviceUl">
-								<li>XML, JSON export module</li>
-								<li>Support for custom extensions</li>
-								<li>Chats archive</li>
-								<li>Chat transcript print</li>
-								<li>Chat transcript send by mail</li>
-								<li>Chats transfering</li>
-								<li>Option to see what user is typing before he sends a message</li>
-
-							</ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <!--<i class="icon-html5 icon-md icon-color4"></i>-->
-                            <h4>Design</h4>
-                            <ul class="serviceUl">
-								<li>Easy setup and moderation</li>
-								<li>Mobile friendly</li>
-								<li>set online or offline mode.</li>
-								<li>Visits tracking</li>
-								<li>Time spent on site</li>
-								<li>Modern design and interface</li>
-								<li>Adjustable width and height</li>
-							</ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Lightweight and compatible</h4>
-                            <ul class="serviceUl">
-								<li>Lightweight & smoother performance</li>
-								<li>Top performance with enabled cache</li>
-								<li>Canned messages</li>
-								<li>GEO detection using three different sources</li>
-								<li>Runs perfectly on PCs, tablets and mobile devices</li>
-								<li>Compatibile with all modern browsers</li>
-								<li>Advanced load balancing system</li>
-							</ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Customizable Settings</h4>
-                            <ul class="serviceUl">
-								<li>Option to take website screenshot see what user see</li>
-								<li>Resume chat after user closed chat</li>
-								<li>Sounds on pending chats and new messages</li>
-								<li>configure frequency for pro active chat invitation message.</li>
-								
-							</ul>
-                        </div>
-                    </div>
                 </div><!--/.row-->
-
-				
-
             </div><!--/.box-->
         </div><!--/.container-->
     </section><!--/#services-->
@@ -207,12 +117,6 @@ else
                    <h2>Powerful Agent Panel</h2>
                     <p class="lead">Empower your customer support with the help of helpdesk integrations with your site.</p>
                 </div><!--/.center-->
-                <ul class="portfolio-filter">
-                    <li><a class="btn btn-primary active" href="#" data-filter="*">All</a></li>
-                    <li><a class="btn btn-primary" href="#" data-filter=".bootstrap">Bootstrap</a></li>
-                    <li><a class="btn btn-primary" href="#" data-filter=".html">HTML</a></li>
-                    <li><a class="btn btn-primary" href="#" data-filter=".wordpress">Wordpress</a></li>
-                </ul><!--/#portfolio-filter-->
                 <ul class="portfolio-items col-4">
                     <li class="portfolio-item apps">
                         <div class="item-inner">
@@ -312,124 +216,183 @@ else
             <div class="box">
                 <div class="center">
                      <h2>Pricings</h2>
-                    <p class="lead">We are turn your visitors into your new customers – Lets Chat!.</p>
-                    <p class="lead">Track and engage visitors to increase sales, improve conversions and give higher customer satisfaction</p>
+                    <p class="lead">We are turn your visitors into your new customers – Lets talk to visitors!.</p>
+                    <p class="lead">Track and engage visitors to increase sales , services and give higher customer satisfaction</p>
                 </div><!--/.center-->   
                 
                 <div id="pricing-table" class="row">
-                    <div class="col-sm-4">
-                        <ul class="plan">
-                            <li class="plan-name">Free</li>
-                            <li class="plan-price">$0</li>
-                            <li>Real-time chat</li>
-                            <li>30 Days</li>
-                            <li>Unlimited chats</li>
-                            <li>Files upload</li>
-                            <li>Chat transcript send by mail</li>
-							<li>Chat transcript print</li>
-							<li>Chats archive</li>
-							<li>Users blocking</li>
-							<li>Visits tracking</li>
-							<li>Online users map</li>
-							<li>Chats statistic generation, top chats</li>
-							<li>Resume chat after user closed chat</li>
-							<li>All chats in single window with tabs interface</li>
-							<li>Option to prefill form fields</li>
-							<li>Option to send transcript to users e-mail</li>
-							<li>Online users tracking, including geo detection</li>
-							<li>Windows, Linux and Mac native applications.</li>
-							<li>Sounds on pending chats and new messages</li>
-							<li>Option for operator set online or offline mode</li>
-							<li>Option to see what user is typing before he sends a message</li>
-							<li style="font-weight:bold;font-size:19px;color:#777;">and much more lots...</li>
-                            <li class="plan-action">
-							<?php if($isLogin == true){?>
-								<a href="<?=base_url();?>dashboard/plan_upgrade/" class="btn btn-primary btn-lg">Upgrade Plan</a>
-							<?php }else{?>
-								<a href="<?=base_url();?>signup" class="btn btn-primary btn-lg">Signup</a>
-							<?php }?>
-							</li>
-                        </ul>
-                    </div><!--/.col-sm-4-->
-                    <div class="col-sm-4">
-                        <ul class="plan">
-                            <li class="plan-name">Premium</li>
-                            <li class="plan-price">$49</li>
-                            <li>Real-time chat</li>
-                            <li>60 Days</li>
-                            <li>Unlimited chats</li>
-                            <li>Files upload</li>
-                            <li>Chat transcript send by mail</li>
-							<li>Chat transcript print</li>
-							<li>Chats archive</li>
-							<li>Users blocking</li>
-							<li>Visits tracking</li>
-							<li>Online users map</li>
-							<li>Chats statistic generation, top chats</li>
-							<li>Resume chat after user closed chat</li>
-							<li>All chats in single window with tabs interface</li>
-							<li>Option to prefill form fields</li>
-							<li>Option to send transcript to users e-mail</li>
-							<li>Online users tracking, including geo detection</li>
-							<li>Windows, Linux and Mac native applications.</li>
-							<li>Sounds on pending chats and new messages</li>
-							<li>Option for operator set online or offline mode</li>
-							<li>Option to see what user is typing before he sends a message</li>
-							<li style="font-weight:bold;font-size:19px;color:#777;">and much more lots...</li>
-                            <li class="plan-action">
-							<?php if($isLogin == true){?>
-								<a href="<?=base_url();?>dashboard/plan_upgrade/" class="btn btn-primary btn-lg">Upgrade Plan</a>
-							<?php }else{?>
-								<a href="<?=base_url();?>signup" class="btn btn-primary btn-lg">Signup</a>
-							<?php }?>
-							</li>
-                        </ul>
-                    </div><!--/.col-sm-4-->
-                    <div class="col-sm-4">
-                        <ul class="plan">
-                            <li class="plan-name">Enterprise</li>
-                            <li class="plan-price">$199</li>
-                            <li>Real-time chat</li>
-                            <li>1 year</li>
-                            <li>Unlimited chats</li>
-                            <li>Files upload</li>
-                            <li>Chat transcript send by mail</li>
-							<li>Chat transcript print</li>
-							<li>Chats archive</li>
-							<li>Users blocking</li>
-							<li>Visits tracking</li>
-							<li>Online users map</li>
-							<li>Chats statistic generation, top chats</li>
-							<li>Resume chat after user closed chat</li>
-							<li>All chats in single window with tabs interface</li>
-							<li>Option to prefill form fields</li>
-							<li>Option to send transcript to users e-mail</li>
-							<li>Online users tracking, including geo detection</li>
-							<li>Windows, Linux and Mac native applications.</li>
-							<li>Sounds on pending chats and new messages</li>
-							<li>Option for operator set online or offline mode</li>
-							<li>Option to see what user is typing before he sends a message</li>
-							<li style="font-weight:bold;font-size:19px;color:#777;">and much more lots...</li>
-                            <li class="plan-action">
-							<?php if($isLogin == true){?>
-								<a href="<?=base_url();?>dashboard/plan_upgrade/" class="btn btn-primary btn-lg">Upgrade Plan</a>
-							<?php }else{?>
-								<a href="<?=base_url();?>signup" class="btn btn-primary btn-lg">Signup</a>
-							<?php }?>
-							</li>
-                        </ul>
-                    </div><!--/.col-sm-4-->
+                    <header>
+						<div id="fdw-pricing-table">
+							<div class="plan plan1 col-md-3">
+								<div class="header">Enterprise</div>
+								<div class="price">$110</div>  
+								<div class="monthly">1 year</div>      
+								<ul>
+									<li><b>1 year</b> Time limit</li>
+									<li><b>500MB</b> Space</li>
+									<li><b>Unlimited</b> users</li>
+									<li><b>24/7</b> support</li>			
+								</ul>
+								<?php if($isLogin == true){?>
+									<a href="<?=base_url();?>dashboard/plan_upgrade/" class="signup">Upgrade Plan</a>
+								<?php }else{?>
+									<a href="<?=base_url();?>signup" class="signup">Sign up</a>
+								<?php }?>
+							</div>
+							<div class="plan plan2 popular-plan col-md-3">
+								<div class="header">Professional</div>
+								<div class="price">$60</div>
+								<div class="monthly">6 month</div>  
+								<ul>
+									<li><b>180 days</b> Time limit</li>
+									<li><b>300MB</b> Space</li>
+									<li><b>Unlimited</b> users</li>
+									<li><b>24/7</b> support</li>		
+								</ul>
+								<?php if($isLogin == true){?>
+									<a href="<?=base_url();?>dashboard/plan_upgrade/" class="signup">Upgrade Plan</a>
+								<?php }else{?>
+									<a href="<?=base_url();?>signup" class="signup">Sign up</a>
+								<?php }?>
+							</div>
+							<div class="plan plan3 col-md-3">
+								<div class="header">Standard</div>
+								<div class="price">$11</div>
+								<div class="monthly">per month</div>
+								<ul>
+									<li><b>30 days</b> Time limit</li>
+									<li><b>200MB</b> Space</li>
+									<li><b>Unlimited</b> users</li>
+									<li><b>24/7</b> support</li>				
+								</ul>
+								<?php if($isLogin == true){?>
+									<a href="<?=base_url();?>dashboard/plan_upgrade/" class="signup">Upgrade Plan</a>
+								<?php }else{?>
+									<a href="<?=base_url();?>signup" class="signup">Sign up</a>
+								<?php }?>
+							</div>
+							<div class="plan plan4 col-md-3">
+								<div class="header">Basic</div>
+								<div class="price">$0</div>
+								<div class="monthly">Trial Plan</div>
+								<ul>
+									<li><b>30 days</b> Time limit</li>
+									<li><b>100MB</b> Space</li>
+									<li><b>Limited</b> users</li>
+									<li><b>No</b> support</li>			
+								</ul>
+								<?php if($isLogin == true){?>
+									<a href="<?=base_url();?>dashboard/plan_upgrade/" class="signup">Upgrade Plan</a>
+								<?php }else{?>
+									<a href="<?=base_url();?>signup" class="signup">Sign up</a>
+								<?php }?>
+							</div> 	
+						</div>
+					</header><!-- end header -->
                 </div> 
             </div> 
         </div>
     </section><!--/#pricing-->
-
+	 <section id="allservices">
+        <div class="container">
+            <div class="box first" style="background-color: #F7F7F7;margin-top: -90px;">
+				 <div class="center">
+                    <h2>All Services</h2>
+                </div><!--/.center-->
+                <div class="row" style="margin:0 5px;">
+                    <div class="col-md-4 col-sm-6 featuresBox">
+                        <div class="center">
+                            <h4>Useful features</h4>
+                            <ul class="serviceUl">
+								<li>Multilanguage</li>
+								<li>Mobile friendly</li>
+								<li>Files upload</li>
+								<li>Multiple chats same time</li>
+								<li>Resume chat</li>
+								<li>Smiles and few other hidden features</li>
+								<li>Dekstop client supports HTTPS</li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 featuresBox">
+                        <div class="center">
+                            <h4>Fast and reliable</h4>
+                            <ul class="serviceUl">
+								<li>Easy setup and moderation</li>
+								<li>Mobile friendly</li>
+								<li>Links recognition</li>
+								<li>Online users map</li>
+								<li>Flexible permission system</li>
+								<li>No third parties cookies dependency</li>
+								<li>Chat search</li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 featuresBox">
+                        <div class="center">
+                            <h4>User Interface & Enhanced Features</h4>
+                            <ul class="serviceUl">
+								<li>XML, JSON export module</li>
+								<li>Support for custom extensions</li>
+								<li>Chats archive</li>
+								<li>Chat transcript print</li>
+								<li>Chat transcript send by mail</li>
+								<li>Chats transfering</li>
+								<li>Option to see what user is typing before he sends a message</li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 featuresBox">
+                        <div class="center">
+                            <!--<i class="icon-html5 icon-md icon-color4"></i>-->
+                            <h4>Design</h4>
+                            <ul class="serviceUl">
+								<li>Easy setup and moderation</li>
+								<li>Mobile friendly</li>
+								<li>set online or offline mode.</li>
+								<li>Visits tracking</li>
+								<li>Time spent on site</li>
+								<li>Modern design and interface</li>
+								<li>Adjustable width and height</li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 featuresBox">
+                        <div class="center">
+                            <h4>Lightweight and compatible</h4>
+                            <ul class="serviceUl">
+								<li>Lightweight & smoother performance</li>
+								<li>Top performance with enabled cache</li>
+								<li>Canned messages</li>
+								<li>GEO detection using three different sources</li>
+								<li>Runs perfectly on PCs, tablets and mobile devices</li>
+								<li>Compatibile with all modern browsers</li>
+								<li>Advanced load balancing system</li>
+							</ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 featuresBox">
+                        <div class="center">
+                            <h4>Customizable Settings</h4>
+                            <ul class="serviceUl">
+								<li>Option to take website screenshot see what user see</li>
+								<li>Resume chat after user closed chat</li>
+								<li>Sounds on pending chats and new messages</li>
+								<li>configure frequency for pro active chat invitation message.</li>
+								
+							</ul>
+                        </div>
+                    </div>
+                </div><!--/.row-->
+            </div><!--/.box-->
+        </div><!--/.container-->
+    </section><!--/#services-->
     <section id="about-us">
         <div class="container">
             <div class="box">
                 <div class="center">
                     <h2>About Us</h2>
-                    <p class="lead">We are here to convert your visitors to your customers. Make Your Customers your Friend and Enjoy our services & fun together.<br/>Who we are ?</p>
+                    <p class="lead">We will help you to convert your visitors to your customers. <br>Make Your Customers your Friend and Enjoy our services & fun together.</p>
                 </div>
                 <div class="gap">
 				<p class="abtUs">Our team is one of the best organization which representing their knowledge in front of world.</p>
@@ -443,6 +406,14 @@ else
 
 				<p class="abtUs" style="font-style:italic;">#1 Chat Avenue is a great way to meet valued users through online chat support interaction and give them 24/7 support.</p>
 				<p class="abtUs" style="font-style:italic;">The #1 Chat Avenue team is committed to making your chat experience a great one. Please add this site to your "Favorites" and visit often. Also, be sure to tell all your friends about our wonderful community.</p>
+				</div>
+				<div class="signup-box">
+				<span class="text"> Sign Up Today and start to use our service - <b><i>Start to give support</i></b> </span>
+				<?php if($isLogin == true){?>
+					<a href="<?=base_url();?>dashboard/plan_upgrade/" class="btn btn-primary btn-lg">Upgrade Plan</a>
+				<?php }else{?>
+					<a href="<?=base_url();?>signup" class="btn btn-primary btn-lg">Signup</a>
+				<?php }?>
 				</div>
             </div><!--/.box-->
         </div><!--/.container-->

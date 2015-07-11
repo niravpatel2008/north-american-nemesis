@@ -38,7 +38,7 @@
 }
 
 .breadcrumb{
-	border:1px solid #3C8DBC;
+	border:1px solid #39435e;
 }
 
 .main-container{
@@ -55,7 +55,7 @@
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-	background-color: #3C8DBC;
+	background-color: #39435e;
 }
 
 .datepicker.dropdown-menu {
@@ -65,7 +65,7 @@
 }
 
 .datepicker td.active.day, .datepicker th.active.day {
-	background:#3C8DBC !important;
+	background:#39435e !important;
 	color:#FFF;
 }
 

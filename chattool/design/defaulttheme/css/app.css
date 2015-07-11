@@ -840,6 +840,7 @@ input[type="file"]{
 .popover .popover-title{
 	font-size:12px;
 	font-weight:bold;
+	background: inherit !important;
 }
 
 .dropdown-menu>li>label>input{
@@ -872,20 +873,20 @@ input[type="file"]{
 /* CSS added by sanjay */
 .navbar-default
 {
-	background-color:#3C8DBC;
+	background-color:#39435e;
 }
 .navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:hover{
 color:#FFFFFF;
 }
 .panel-default>.panel-heading
 {
-	background-color:#3C8DBC;
+	background-color:#39435e;
 	color:#FFFFFF !important;
 }
 .panel-default>.panel-heading>a,.panel-default>.panel-heading>a:focus, .panel-default>.panel-heading>a:hover
 {color:#FFFFFF!important}
 .icon-button,.icon-button:hover{
-    background-color: #3C8DBC;
+    background-color: #39435e;
     color: #FFFFFF;
     padding: 0px 1px;
     margin: 3px;
@@ -900,7 +901,7 @@ input[type='text'],input[type='password']{border: 1px solid rgba(0, 150, 136, 0.
 
 .nav-list-container {
 	width: 335px; right: 0px; bottom: 0px; position: fixed; margin: 0px;z-index:1;
-	background-color:#3C8DBC;
+	background-color:#39435e;
 }
 
 .nav-list-div { 
@@ -959,4 +960,8 @@ input[type='text'],input[type='password']{border: 1px solid rgba(0, 150, 136, 0.
 
 .btnclose {
 	box-shadow:none !important;
+}
+
+.tblchkbox {
+	margin: 0 !important;
 }

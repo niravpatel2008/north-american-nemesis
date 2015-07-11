@@ -25,8 +25,10 @@
 </div>
 
 <div class="form-group">
-<label><?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('questionary/form_question','Active');?></label>
-<input type="checkbox" name="Active" value="1" <?php ($question->active == 1) ? print 'checked="checked"' : '' ?>" />
+<label>
+	<input type="checkbox" name="Active" value="1" <?php ($question->active == 1) ? print 'checked="checked"' : '' ?>" />
+	<?php echo erTranslationClassLhTranslation::getInstance()->getTranslation('questionary/form_question','Active');?>
+</label>
 </div>
 
 <?php include(erLhcoreClassDesign::designtpl('lhkernel/csfr_token.tpl.php'));?>

@@ -28,7 +28,8 @@ else
 	<?php  
 		if($this->router->fetch_method() == 'signin')
 		{
-			echo '<link href="'.public_path().'css/login.css" rel="stylesheet" type="text/css">';
+			
+			
 			echo '<link href="'.public_path().'css/validationEngine.css" rel="stylesheet" type="text/css">';
 		}
 		//if($this->router->fetch_class() == 'signup'){

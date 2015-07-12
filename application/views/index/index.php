@@ -300,88 +300,137 @@ else
                     <h2>All Services</h2>
                 </div><!--/.center-->
                 <div class="row" style="margin:0 5px;">
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Useful features</h4>
-                            <ul class="serviceUl">
-								<li>Multilanguage</li>
-								<li>Mobile friendly</li>
-								<li>Files upload</li>
-								<li>Multiple chats same time</li>
-								<li>Resume chat</li>
-								<li>Smiles and few other hidden features</li>
-								<li>Dekstop client supports HTTPS</li>
-							</ul>
+                    <div class="col-md-4 col-sm-6">
+					<div class="portlet box green">
+						<div class="portlet-title">
+							<div class="caption">
+								Useful features
+							</div>
+						</div>
+						<div class="portlet-body">
+							<div class="center">
+								<ul class="serviceUl">
+									<li>Multilanguage</li>
+									<li>Mobile friendly</li>
+									<li>Files upload</li>
+									<li>Multiple chats same time</li>
+									<li>Resume chat</li>
+									<li>Smiles and few other hidden features</li>
+									<li>Dekstop client supports HTTPS</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+                        
+                    </div>
+                    <div class="col-md-4 col-sm-6 ">
+						<div class="portlet box green">
+							<div class="portlet-title">
+								<div class="caption">
+									Fast and reliable
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="center">
+									<ul class="serviceUl">
+										<li>Easy setup and moderation</li>
+										<li>Mobile friendly</li>
+										<li>Links recognition</li>
+										<li>Online users map</li>
+										<li>Flexible permission system</li>
+										<li>No third parties cookies dependency</li>
+										<li>Chat search</li>
+									</ul>
+								</div>
+							</div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Fast and reliable</h4>
-                            <ul class="serviceUl">
-								<li>Easy setup and moderation</li>
-								<li>Mobile friendly</li>
-								<li>Links recognition</li>
-								<li>Online users map</li>
-								<li>Flexible permission system</li>
-								<li>No third parties cookies dependency</li>
-								<li>Chat search</li>
-							</ul>
-                        </div>
+                    <div class="col-md-4 col-sm-6">
+						<div class="portlet box green">
+							<div class="portlet-title">
+								<div class="caption">
+									User Interface & Enhanced Features
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="center">
+									<ul class="serviceUl">
+										<li>XML, JSON export module</li>
+										<li>Support for custom extensions</li>
+										<li>Chats archive</li>
+										<li>Chat transcript print</li>
+										<li>Chat transcript send by mail</li>
+										<li>Chats transfering</li>
+										<li>Option to see what user is typing before he sends a message</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
                     </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>User Interface & Enhanced Features</h4>
-                            <ul class="serviceUl">
-								<li>XML, JSON export module</li>
-								<li>Support for custom extensions</li>
-								<li>Chats archive</li>
-								<li>Chat transcript print</li>
-								<li>Chat transcript send by mail</li>
-								<li>Chats transfering</li>
-								<li>Option to see what user is typing before he sends a message</li>
-							</ul>
-                        </div>
+                    <div class="col-md-4 col-sm-6">
+						<div class="portlet box green">
+							<div class="portlet-title">
+								<div class="caption">
+									Design
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="center">
+									
+									<ul class="serviceUl">
+										<li>Easy setup and moderation</li>
+										<li>Mobile friendly</li>
+										<li>set online or offline mode.</li>
+										<li>Visits tracking</li>
+										<li>Time spent on site</li>
+										<li>Modern design and interface</li>
+										<li>Adjustable width and height</li>
+									</ul>
+								</div>
+							</div>
+						</div>
                     </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <!--<i class="icon-html5 icon-md icon-color4"></i>-->
-                            <h4>Design</h4>
-                            <ul class="serviceUl">
-								<li>Easy setup and moderation</li>
-								<li>Mobile friendly</li>
-								<li>set online or offline mode.</li>
-								<li>Visits tracking</li>
-								<li>Time spent on site</li>
-								<li>Modern design and interface</li>
-								<li>Adjustable width and height</li>
-							</ul>
-                        </div>
+                    <div class="col-md-4 col-sm-6">
+						<div class="portlet box green">
+							<div class="portlet-title">
+								<div class="caption">
+									Lightweight and compatible
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="center">
+									<ul class="serviceUl">
+										<li>Lightweight & smoother performance</li>
+										<li>Top performance with enabled cache</li>
+										<li>Canned messages</li>
+										<li>GEO detection using three different sources</li>
+										<li>Runs perfectly on PCs, tablets and mobile devices</li>
+										<li>Compatibile with all modern browsers</li>
+										<li>Advanced load balancing system</li>
+									</ul>
+								</div>
+							</div>
+						</div>
                     </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Lightweight and compatible</h4>
-                            <ul class="serviceUl">
-								<li>Lightweight & smoother performance</li>
-								<li>Top performance with enabled cache</li>
-								<li>Canned messages</li>
-								<li>GEO detection using three different sources</li>
-								<li>Runs perfectly on PCs, tablets and mobile devices</li>
-								<li>Compatibile with all modern browsers</li>
-								<li>Advanced load balancing system</li>
-							</ul>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 featuresBox">
-                        <div class="center">
-                            <h4>Customizable Settings</h4>
-                            <ul class="serviceUl">
-								<li>Option to take website screenshot see what user see</li>
-								<li>Resume chat after user closed chat</li>
-								<li>Sounds on pending chats and new messages</li>
-								<li>configure frequency for pro active chat invitation message.</li>
-								
-							</ul>
-                        </div>
+                    <div class="col-md-4 col-sm-6">
+						<div class="portlet box green">
+							<div class="portlet-title">
+								<div class="caption">
+									Customizable Settings
+								</div>
+							</div>
+							<div class="portlet-body">
+								<div class="center">
+									<ul class="serviceUl">
+										<li>Option to take website screenshot see what user see</li>
+										<li>Resume chat after user closed chat</li>
+										<li>Sounds on pending chats and new messages</li>
+										<li>configure frequency for pro active chat invitation message.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
                     </div>
                 </div><!--/.row-->
             </div><!--/.box-->

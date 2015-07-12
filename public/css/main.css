@@ -924,3 +924,50 @@ margin-top:15px;
 	.serviceUl li:before {
  content: "\0BB \020";
  }
+ .portlet.box.green
+ {	
+ border:1px solid #30d0c1;
+ border-top:0;
+ 
+ } 
+ .portlet > .portlet-body.green, .portlet.green{
+ background-color:#26a69a;
+ }
+ .portlet.box{
+ padding:0px !important;
+ }
+ .portlet{
+ margin-top:0px;
+ margin-bottom:25px;
+ }
+ .portlet.box.green > .portlet-title{
+ background-color:#52B6EC;
+ }
+ .portlet.box > .portlet-title{
+ border-bottom:0;
+ padding:0 10px;
+ margin-bottom:0;
+ color:#FFF;
+ }
+ .portlet > .portlet-title{
+ min-height:41px;
+ }
+ .portlet.box > .portlet-body{
+ background-color:#FFF;
+ padding:10px;
+ }
+ .portlet > .portlet-body{
+ clear:both;
+ }
+ .portlet.box.green > .portlet-title > .caption{
+ color:#FFF;
+ }
+ .portlet.box > .portlet-title > .caption{
+ padding:11px 0 9px 0;
+ }
+ .portlet > .portlet-title > .caption{
+ float:left;
+ display:inline-block;
+ font-size:18px;
+ line-height:18px;
+ }

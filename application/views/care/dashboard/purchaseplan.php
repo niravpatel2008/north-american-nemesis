@@ -1,14 +1,13 @@
+<section class="content-header">
+	<h1>My Plan Detail</h1>
+</section>
+
+<section class="content" id="purchasePlan">
 <?php
-
 $packageArr = getPackages();
-
 ?>
 
-<section id="purchasePlan">
             <div class="box_care">
-				<div class="center welcome">
-					<h3>My Plan Detail</h3>
-				</div>
                 <div class="center">
                     
                 </div><!--/.center-->   

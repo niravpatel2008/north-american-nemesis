@@ -1,49 +1,32 @@
-<?php
-if(isset($this->front_session) && $this->front_session['u_id'] > 0)
-	$isLogin = true;
-else
-	$isLogin = false;
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Chat</title>
-    <link href="<?=public_path()?>css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?=public_path()?>css/font-awesome.min.css" rel="stylesheet">
-    <link href="<?=public_path()?>css/prettyPhoto.css" rel="stylesheet">
-    <link href="<?=public_path()?>css/main.css" rel="stylesheet">
-	<link href="<?=public_path()?>css/sb-admin.css" rel="stylesheet">
-	<link href="<?=public_path()?>css/simple-sidebar.css" rel="stylesheet">
-	 <!-- Custom Fonts -->
-    <link href="<?=public_path()?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-	
-	<link href="<?=public_path()?>css/signup.css" rel="stylesheet" type="text/css">
-	<link href="<?=public_path()?>css/validationEngine.css" rel="stylesheet" type="text/css">
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-	
-	<script src="<?=public_path()?>js/jquery.js"></script>
-	<script>
-			var baseurl='<?=base_url()?>';
-	</script>
-	<?php 
-		if(in_array($this->router->fetch_class(), array("signup","dashboard","index","complaint"))){
-			//echo '<script src="'.public_path().'js/jquery.backstretch.min.js"></script>';
-			echo '<script src="'.public_path().'js/btvalidationEngine-en.js"></script>';
-			
-			echo '<script src="'.public_path().'js/btvalidationEngine.js"></script>';
-			echo '<script src="'.public_path().'js/common.js"></script>';
-			echo '<script src="'.public_path().'js/bootstrap.min.js"></script>';
-		}
-	?>
-
-</head><!--/head-->
-
-<body data-spy="scroll" data-target="#navbar" data-offset="0">
-   
+<a class="logo" href="<?=base_url()?>">
+                <!-- Add the class icon to your logo image or logo icon to add the margining -->
+                Admin
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav role="navigation" class="navbar navbar-static-top">
+                <!-- Sidebar toggle button-->
+                <a role="button" data-toggle="offcanvas" class="sidebar-toggle" href="#">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+								<i class="glyphicon glyphicon-user"></i>
+                                <span><?=$this->front_session['u_name'];?> <i class="fa fa-sign-out"></i></span>
+							</a>
+							<ul class="dropdown-menu">
+								
+								<li><a href="<?=base_url()?>" target="_blank">Home</a></li>
+								<li><a href="<?=base_url()?>dashboard/change_password" >Change Password</a></li>
+								<li><a href="<?=base_url()?>../index/signout/" >Log Out</a></li>
+								
+							</ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>

@@ -20,21 +20,21 @@ else
 <div class="featured_content" id="feature">
   <div class="container">
     <div class="row text-center">
-      <div class="col-mg-3 col-xs-3 feature_grid1"> <i class="fa fa-cog fa-3x"></i>
+      <div class="col-mg-3 col-xs-3 feature_grid1"> <i class="fa fa-globe fa-3x"></i>
         <h3 class="m_1"><a href="<?=base_url()?>index/services">Real-time Visitor Tracking</a></h3>
         <p class="m_2">Convert visitors into customers by tracking them real-time on your web pages.</p>
         <a href="<?=base_url()?>index/services" class="feature_btn">More</a> </div>
-      <div class="col-mg-3 col-xs-3 feature_grid1"> <i class="fa fa-comments-o fa-3x"></i>
+      <div class="col-mg-3 col-xs-3 feature_grid1"> <i class="fa fa-cog fa-3x"></i>
         <h3 class="m_1"><a href="<?=base_url()?>index/services">1 Minute Set up</a></h3>
-        <p class="m_2">Very easy to use.It take less then 1 min.You just copy past small code and start to grow your business.</p>
+        <p class="m_2">Very easy to use.It take less then 1 minute for setup.You just copy past small code and start to grow your business.</p>
         <a href="<?=base_url()?>index/services" class="feature_btn">More</a> </div>
-      <div class="col-md-3 col-xs-3 feature_grid1"> <i class="fa fa-globe fa-3x"></i>
+      <div class="col-md-3 col-xs-3 feature_grid1"> <i class="fa fa-history fa-3x"></i>
         <h3 class="m_1"><a href="<?=base_url()?>index/services">24 x 7 Agent</a></h3>
-        <p class="m_2">You can give good support by 24 x 7 to your customers and solving problems.</p>
+        <p class="m_2">We gives to platform to get in touch with your site visitors.You can give good support by 24 x 7 to your customers and solving problems.</p>
         <a href="<?=base_url()?>index/services" class="feature_btn">More</a> </div>
-      <div class="col-md-3 col-xs-3 feature_grid2"> <i class="fa fa-history fa-3x"></i>
+      <div class="col-md-3 col-xs-3 feature_grid2"> <i class="fa fa-comments-o fa-3x"></i>
         <h3 class="m_1"><a href="<?=base_url()?>index/services">Advanced Chat Routing</a></h3>
-        <p class="m_2">Right chat to the right agent ensures that customers get the answers that they are looking for and get quick reply.</p>
+        <p class="m_2">Right chat to the right agent ensures that customers get the answers that they are looking for.</p>
         <a href="<?=base_url()?>index/services" class="feature_btn">More</a> </div>
     </div>
   </div>

@@ -26,7 +26,11 @@ class Index extends CI_Controller {
         $data['view'] = "contact";
         $this->load->view('content', $data);
     }
-
+	
+	public function services() {
+        $data['view'] = "services";
+        $this->load->view('content', $data);
+    }
     public function signin() {
         $post = $this->input->post();
         if ($post) {

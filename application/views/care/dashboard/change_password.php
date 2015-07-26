@@ -3,7 +3,7 @@
 	<div class="row">
 		<div class="register span6">
 
-			<form id="frmChangePwd" name="frmChangePwd" method="post">
+			<form id="frmChangePwd" name="frmChangePwd" data-validate="true" method="post">
 				<h2>Change password</h2>
 
 				<label for="password">New Password</label>
@@ -17,10 +17,3 @@
 		</div>
 	</div>
 </div>
-    
-
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#frmChangePwd").validationEngine();
-});
-</script>

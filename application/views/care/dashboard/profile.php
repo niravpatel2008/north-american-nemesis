@@ -6,7 +6,7 @@
 <div class="col-md-6">
 	<div class='box box-solid'>
 		<div class="box-body">
-			<form id="frmSignup" name="frmSignup" method="post" accept-charset="UTF-8">
+			<form id="frmSignup" data-validate="true" name="frmSignup" method="post" accept-charset="UTF-8">
 				<div class="form-group">
                     <label for="firstname"><span class="red">* </span>First Name</label>
 					<input type="text" placeholder="enter your first name..." name="fname" id="fname" value="<?php echo $user->u_fname; ?>" class="form-control validate[required]"><?= my_form_error('fname') ?>
@@ -34,9 +34,3 @@
 		</div>
 	</div>
 </section>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#frmSignup").validationEngine();
-});
-</script>

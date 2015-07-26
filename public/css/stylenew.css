@@ -248,6 +248,27 @@ p.m_2 {
 	color: #fff;
 	text-decoration: none;
 }
+
+.banner_btn2 {
+	display: inline-block;
+	padding: 5px 10px;
+	font-size: 1em;
+	cursor: pointer;
+	background: #2ABB9B;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	outline: none;
+	margin-top: 5px;
+	border-radius: 5px;
+}
+.banner_btn2:hover {
+	background: #22967c;
+	color: #fff;
+	text-decoration: none;
+}
+
+
 .feature_btn {
 	display: inline-block;
 	padding: 6px 20px;

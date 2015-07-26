@@ -6,7 +6,7 @@
 	<div class="col-md-6">
 	<div class='box box-solid'>
 		<div class="box-body">
-			<form id="frmPurchase" role="form" name="frmPurchase" method="post" accept-charset="UTF-8">
+			<form id="frmPurchase" data-validate="true" role="form" name="frmPurchase" method="post" accept-charset="UTF-8">
 				<div class="form-group">
                     <label for="website"><span class="red">* </span>Website (website must be unique)</label>
 					<input type="text" name="website" id="website" placeholder="enter your website..." class="form-control validate[required,url]" value="<?= set_value('website'); ?>" ><?= my_form_error('website') ?>
@@ -35,9 +35,3 @@
 	</div>
 	</div>
 </section>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#frmPurchase").validationEngine();
-});
-</script>

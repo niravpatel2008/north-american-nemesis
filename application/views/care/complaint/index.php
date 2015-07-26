@@ -49,9 +49,3 @@
 	</div>
 	</div>
 </section>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	$("#frmComplaint").validationEngine();
-});
-</script>

@@ -15,7 +15,7 @@ else
 <div class="main">
 <div class="content_white">
   <h2>Featured Services</h2>
-  <p>Quisque cursus metus vitae pharetra auctor, sem massa mattis semat interdum magna.</p>
+  <p>We know value of your customers.You can give best support to your value able customers using our services.</p>
 </div>
 <div class="featured_content" id="feature">
   <div class="container">
@@ -56,46 +56,46 @@ else
         <a class="banner_btn" href="<?=base_url()?>index/about">Read More</a> </div>
       <div class="col-md-4">
         <div class="block-heading-two">
-          <h3><span>Our Advantages</span></h3>
+          <h3><span>Why are we important ?</span></h3>
         </div>
         <div class="panel-group" id="accordion-alt3">
           <div class="panel">
             <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3"> <i class="fa fa-angle-right"></i> Quisque cursus metus vitae pharetra auctor</a> </h4>
+              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseOne-alt3"> <i class="fa fa-angle-right"></i>We know value of your customers</a> </h4>
             </div>
             <div id="collapseOne-alt3" class="panel-collapse collapse">
               <div class="panel-body">
-                <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <p>You are providing opportunity to convert your visitor in to customer.Talk with them and give guideline to use your product and services.</p>
               </div>
             </div>
           </div>
           <div class="panel">
             <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3"> <i class="fa fa-angle-right"></i> Duis autem vel eum iriure dolor in hendrerit</a> </h4>
+              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseTwo-alt3"> <i class="fa fa-angle-right"></i> Best supporting interface with your users</a> </h4>
             </div>
             <div id="collapseTwo-alt3" class="panel-collapse collapse">
               <div class="panel-body">
-                <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <p>You can be live with your users.Chat,file transfer, remote connection, screen capture this features are  giving you best experience. </p>
               </div>
             </div>
           </div>
           <div class="panel">
             <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3"> <i class="fa fa-angle-right"></i> Quisque cursus metus vitae pharetra auctor </a> </h4>
+              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseThree-alt3"> <i class="fa fa-angle-right"></i> There is no limit to make agents  </a> </h4>
             </div>
             <div id="collapseThree-alt3" class="panel-collapse collapse">
               <div class="panel-body">
-                <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <p>You can make unlimited agents who will give support to your customers.There is also multiple department facility which will bring right customers to right agent with chat transfer.</p>
               </div>
             </div>
           </div>
           <div class="panel">
             <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3"> <i class="fa fa-angle-right"></i> Duis autem vel eum iriure dolor in hendrerit</a> </a> </h4>
+              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseFour-alt3"> <i class="fa fa-angle-right"></i> 24X7 support  </a> </a> </h4>
             </div>
             <div id="collapseFour-alt3" class="panel-collapse collapse">
               <div class="panel-body">
-                <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.</p>
+                <p>This will very important to for who want to cache international customers with flexible timing and give them 24X7 support.</p>
               </div>
             </div>
           </div>
@@ -109,16 +109,16 @@ else
     <div class="container">
       <div class="row text-center">
         <div class="col-sm-3 col-xs-6"> <i class="fa fa-smile-o fa-5x"></i>
-          <h4>120+ Happy Clients</h4>
+          <h4>50+ Happy Clients</h4>
         </div>
         <div class="col-sm-3 col-xs-6"> <i class="fa fa-check-square-o fa-5x"></i>
-          <h4>600+ Projects Completed</h4>
+          <h4>100+ Projects Used</h4>
         </div>
         <div class="col-sm-3 col-xs-6"> <i class="fa fa-trophy fa-5x"></i>
-          <h4>25 Awards Won</h4>
+          <h4>5 Awards Won</h4>
         </div>
         <div class="col-sm-3 col-xs-6"> <i class="fa fa-map-marker fa-5x"></i>
-          <h4>3 Offices</h4>
+          <h4>3 Offers</h4>
         </div>
       </div>
     </div>
@@ -137,20 +137,20 @@ else
         </ol>
         <div class="carousel-inner">
           <div class="item active">
-            <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerci tation."</p>
-            <p><strong>- John Doe -</strong></p>
+            <p>"Woow!! This is really amazing product.This is very supportive for me. I got new contacts and good clients with using this product.I am highly satisfied using this product. "</p>
+            <p><strong>- Ethan Gremillion -</strong></p>
           </div>
           <div class="item">
-            <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerci tation."</p>
-            <p><strong>- Jane Doe -</strong></p>
+            <p>"This is such a wonderful product.More efficient than mailing a notice that sometimes never reaches the users. Less expensive way to communicate. "</p>
+            <p><strong>- Seth Delaney -</strong></p>
           </div>
           <div class="item">
-            <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerci tation."</p>
-            <p><strong>- John Smith -</strong></p>
+            <p>"Affordable solution with tons of features and an easy to use interface.It has helped us expand and diversify our portfolio of technology solutions we can bring to our clients."</p>
+            <p><strong>- Brandon Munson -</strong></p>
           </div>
           <div class="item">
-            <p>"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam quis nostrud exerci tation."</p>
-            <p><strong>- Linda Smith -</strong></p>
+            <p>"It makes it easy to communicate with a large group of people in one quick step.I like the layout and ease of use.We want to reach all our journalists and any other volunteer reporters instantly.""</p>
+            <p><strong>- David Solar -</strong></p>
           </div>
         </div>
       </div>

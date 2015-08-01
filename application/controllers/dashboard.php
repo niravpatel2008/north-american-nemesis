@@ -41,9 +41,8 @@ class Dashboard extends CI_Controller {
                             'flash_msg' => 'Profile successfully updated'
                         );
                     $this->session->set_flashdata('flash_arr', $flash_arr);
-					echo $retFlg;
-					exit;
-                    //redirect(base_url() . "dashboard");
+					
+                    redirect(base_url() . "dashboard/profile");
                 }
 				else
 				{

@@ -20,6 +20,7 @@
 			</aside>
 
 			<div class="content-wrapper" style="min-height: 918px;">
+			<div id="flash_msg"></div>
 				<?php $this->load->view("care/".$this->router->fetch_class()."/".$view); ?>
 			</div>
 

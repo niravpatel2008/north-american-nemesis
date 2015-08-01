@@ -17,9 +17,6 @@
 		<li <?php if($this->router->fetch_class()=='dashboard' && $this->router->fetch_method()=='index'){ echo"class='active'";} ?> >
 			<a href="<?=base_url()?>dashboard/">Dashboard</a>
 		</li>
-		<li <?php if($this->router->fetch_class()=='dashboard' && $this->router->fetch_method()=='purchasePlan'){ echo"class='active'";} ?>>
-			<a href="<?=base_url()?>dashboard/purchasePlan">My Plan</a>
-		</li>
 		<li <?php if($this->router->fetch_class()=='dashboard' && $this->router->fetch_method()=='plan_upgrade'){ echo"class='active'";} ?>>
 			<a href="<?=base_url()?>dashboard/plan_upgrade">Upgrade Plan</a>
 		</li>

@@ -168,7 +168,7 @@ class Dashboard extends CI_Controller {
 				$where = array('u_id' => $this->front_session['u_id']);
 				$user = $this->common_model->selectData('users', '*', $where);
 				$user=(array)$user[0];
-				$this->common_model->setupApplication($plan_data,$user[0]);
+				$this->common_model->setupApplication($plan_data,$user);
 				
 				## send mail
 				// $emailTpl = $this->load->view('email_templates/signup', '', true);

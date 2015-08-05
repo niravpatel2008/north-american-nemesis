@@ -223,6 +223,25 @@ h3.m_1 a {
 h3.m_1 a:hover {
 	color: #e5e52d;
 }
+h3.m_a {
+	padding: 0.8em 0;
+	margin: 0;
+}
+h3.m_a  {
+	font-size: 2.1em;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: 1px 1px #4ca390;
+}
+.fg1{
+padding:0em 2em 4em 0;
+}
+.fg2{
+padding:0;
+}
+h3.m_a:hover {
+	color: #e5e52d;
+}
 p.m_2 {
 	color: #e9f8f5;
 	font-size: 1em;

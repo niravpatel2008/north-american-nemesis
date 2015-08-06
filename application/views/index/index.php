@@ -125,32 +125,44 @@ else
   </div>
 </div>
 <div class="content_white">
-  <h2>Featured Services</h2>
-  <p>We know value of your customers.You can give best support to your value able customers using our services.</p>
+  <h2>Pricing plans</h2>
+  <p>We are providing best support at best rate.</p>
 </div>
 <div class="featured_content" id="feature">
   <div class="container">
-    <div class="row text-center">
+     <div class="row text-center">
        <div class="col-mg-3 col-xs-3 feature_grid1 fg1"> 
         <h3 class="m_a">Free</h3>
-        <h3 class="m_a">$0</h3>
-        <p class="m_2">This is freeplan.</p>
+        <h3 class="fa m_a price-tag">$0</h3>
+        <h4 class="m_2 plan-feature">20 days Validity</h4>
+        <h4 class="m_2 plan-feature">20 days History</h4>
+        <h4 class="m_2 plan-feature">Unlimited  Agent Create</h4>
+        <h4 class="m_2 plan-feature">No Support</h4>
         <a href="<?=base_url()?>signup" class="feature_btn">Signup</a> 
 	   </div>
       <div class="col-mg-3 col-xs-3 feature_grid1 fg1">
         <h3 class="m_a">Standard</h3>
-        <h3 class="m_a">$12</h3>
-        <p class="m_2">This charge for only one month service.</p>
+        <h3 class="fa m_a price-tag">$12</h3>
+        <h4 class="m_2 plan-feature">1 month Validity</h4>
+        <h4 class="m_2 plan-feature">2 months History</h4>
+        <h4 class="m_2 plan-feature">Unlimited Agent Create</h4>
+        <h4 class="m_2 plan-feature">Working hours Support</h4>
         <a href="<?=base_url()?>signup" class="feature_btn">Signup</a> </div>
       <div class="col-md-3 col-xs-3 feature_grid1 fg1">
         <h3 class="m_a">Premium</h3>
-        <h3 class="m_a">$60</h3>
-        <p class="m_2">This plan for 6 month servce.</p>
+        <h3 class="fa m_a price-tag">$60</h3>
+        <h4 class="m_2 plan-feature">6 months Validity</h4>
+        <h4 class="m_2 plan-feature">4 months History</h4>
+        <h4 class="m_2 plan-feature">Unlimited Agent Create</h4>
+        <h4 class="m_2 plan-feature">Working hours Support</h4>
         <a href="<?=base_url()?>signup" class="feature_btn">Signup</a> </div>
       <div class="col-md-3 col-xs-3 feature_grid2 fg2">
         <h3 class="m_a">Enterprise</h3>
-        <h3 class="m_a">$105</h3>
-        <p class="m_2">This plan for 1 year service</p>
+        <h3 class="fa m_a price-tag">$105</h3>
+        <h4 class="m_2 plan-feature">12 months Validity</h4>
+        <h4 class="m_2 plan-feature">12 months History</h4>
+        <h4 class="m_2 plan-feature">Unlimited Agent Create</h4>
+        <h4 class="m_2 plan-feature">24 X 7 Support</h4>
         <a href="<?=base_url()?>signup" class="feature_btn">Signup</a> </div>
     </div>
   </div>

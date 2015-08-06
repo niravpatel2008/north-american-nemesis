@@ -22,13 +22,13 @@ else
 
 <body>
 <?php if($isLogin == true ){?>
-<div class="signup-btn" style="float: right;">
+<div class="signup-btn" style="float: right;margin-right: 20px;">
 	<a href="<?=base_url()?>dashboard/">Dashboard</a>&nbsp;&nbsp;|&nbsp;&nbsp;
 	<a href="<?=base_url()?>dashboard/change_password" >Change Password</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?=base_url()?>index/signout/" >Log Out</a>
 </div>
 <?php } ?>
 <?php if($isLogin == false) { ?>
-<div class="signup-btn"  style="float: right;">
+<div class="signup-btn"  style="float: right;margin-right: 20px;margin-top: 33px;">
 	<a class="banner_btn2"  href="<?=base_url()?>signin">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?=base_url()?>signup" class="banner_btn2" >Sign Up</a>
 </div>
 <?php }?>
@@ -37,9 +37,10 @@ else
     <div class="menu"> <a class="toggleMenu" href="#"><img src="<?=public_path()?>images/nav_icon.png" alt="" /> </a>
       <ul class="nav" id="nav">
         <li <?php if($this->router->fetch_method()=='index'){echo 'class="current"';} ?>><a href="<?=base_url()?>">Home</a></li>
-        <li <?php if($this->router->fetch_method()=='about'){echo 'class="current"';} ?>><a href="<?=base_url()?>index/about">About Us </a></li>
         <li <?php if($this->router->fetch_method()=='services'){echo 'class="current"';} ?>><a href="<?=base_url()?>index/services">Services</a></li>
-        <li <?php if($this->router->fetch_method()=='contact'){echo 'class="current"';} ?>><a href="<?=base_url()?>index/contact">Contact Us</a></li>
+        <li <?php if($this->router->fetch_method()=='price'){echo 'class="current"';} ?>><a href="<?=base_url()?>index/price">Pricing </a></li>
+		<li <?php if($this->router->fetch_method()=='about'){echo 'class="current"';} ?>><a href="<?=base_url()?>index/about">About Us </a></li>
+		<li <?php if($this->router->fetch_method()=='contact'){echo 'class="current"';} ?>><a href="<?=base_url()?>index/contact">Contact Us</a></li>
         <div class="clear"></div>
       </ul>
     </div>

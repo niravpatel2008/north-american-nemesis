@@ -1,8 +1,11 @@
 <div class="footer">
   <div class="footer_bottom">
     <div class="follow-us"> <a class="fa fa-facebook social-icon" href="#"></a> <a class="fa fa-twitter social-icon" href="#"></a> <a class="fa fa-linkedin social-icon" href="#"></a> <a class="fa fa-google-plus social-icon" href="#"></a> </div>
-    <div class="copy">
-      <p>Copyright &copy; 2015 Company Name. Design by <a href="#" rel="nofollow">Ctat Application</a></p>
+    <div class="copy col-md-3">
+      <p>Copyright &copy; 2015 Company Name.</p>
+    </div>
+	 <div class="copy col-md-9" style="text-align:right;">
+      <p><a href="#">Privacy and policy</a> | <a href="#">Terms and condition</a> | <a href="<?=base_url()?>index/faq">FAQ</a></p>
     </div>
   </div>
 </div>

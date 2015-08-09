@@ -39,6 +39,14 @@ class Index extends CI_Controller {
         $data['view'] = "faq";
         $this->load->view('content', $data);
     }
+	public function privacy_policy() {
+        $data['view'] = "privacy_policy";
+        $this->load->view('content', $data);
+    }
+	public function terms() {
+        $data['view'] = "terms";
+        $this->load->view('content', $data);
+    }
     public function signin() {
         $post = $this->input->post();
         if ($post) {

@@ -390,6 +390,14 @@ a:focus {
 	background-size: cover;
 	height: 180px;
 }
+.pagecontent  p{margin-bottom:15px;}
+.privacy {
+	background: #555;
+	margin-bottom: 4em;
+	background: url(../images/privacypolicy.jpg) center no-repeat;
+	background-size: cover;
+	height: 180px;
+}
 .title-section {
 	position: relative;
 	padding-top: 60px;

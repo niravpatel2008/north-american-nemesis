@@ -5,7 +5,7 @@
                     &copy; <?=date('Y');?> All Rights Reserved.
                 </div>
 				<div class="col-sm-7" style="text-align: right;">
-					<a href="<?=base_url()?>privacypolicy">Privacy Policy</a> | 
+					<a href="<?=base_url()?>privacy_policy">Privacy Policy</a> | 
 					<a href="<?=base_url()?>terms">Terms & Conditions</a> | 
 					<a href="<?=base_url()?>faq">FAQ</a>
 				</div>

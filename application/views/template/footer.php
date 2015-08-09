@@ -2,10 +2,10 @@
   <div class="footer_bottom">
     <div class="follow-us"> <a class="fa fa-facebook social-icon" href="#"></a> <a class="fa fa-twitter social-icon" href="#"></a> <a class="fa fa-linkedin social-icon" href="#"></a> <a class="fa fa-google-plus social-icon" href="#"></a> </div>
     <div class="copy col-md-3">
-      <p>Copyright &copy; 2015 Company Name.</p>
+      <p>Copyright &copy; <?php echo date('Y');?> Company Name.</p>
     </div>
 	 <div class="copy col-md-9" style="text-align:right;">
-      <p><a href="#">Privacy and policy</a> | <a href="#">Terms and condition</a> | <a href="<?=base_url()?>index/faq">FAQ</a></p>
+      <p><a href="<?=base_url()?>index/privacy_policy">Privacy and policy</a> | <a href="<?=base_url()?>index/terms">Terms and condition</a> | <a href="<?=base_url()?>index/faq">FAQ</a></p>
     </div>
   </div>
 </div>

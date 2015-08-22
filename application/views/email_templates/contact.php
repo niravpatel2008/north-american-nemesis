@@ -8,7 +8,7 @@
 	<br>
 	<span>Email: <?=$email?></span>
 	<br>
-	<span>Contact: <?=$contact?></span>
+	<span>Subject: <?=$subject?></span>
 	<br>
 	<span>Message: <?=$message?></span>
 	<br>

@@ -82,5 +82,53 @@
 		 <?php } ?>
 		
 	</script>
+		<?php  if($this->router->fetch_method() == 'contact') { ?>
+			<script>
+function validatecontactform()
+{
+	var error=false;
+	$('input[type=text]').each(function(){
+       if ($.trim(this.value) == "") {
+          $(this).css("border-color","red");
+		  error=true;
+       }
+	   else
+	   {
+		   $(this).css("border-color","");
+	   }
+	   
+    });
+	if ($.trim($("#email").val())) {
+		var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+		if(!re.test($("#email").val()))
+		{
+			$("#email").css("border-color","red");
+			error=true;
+		}
+		else
+		{
+			$("#email").css("border-color","");
+		}
+	}
+	if (!$.trim($("#message").val())) {
+		$("#message").css("border-color","red");
+		error=true;
+	}
+	else
+	{
+		$("#message").css("border-color","");
+	}
+	
+	if(error==true)
+	{
+		return false;
+	}
+	else
+	{
+		$("#contactFrm").submit();
+	}
+}
+</script>
+		<?php } ?>
 </body>
 </html>

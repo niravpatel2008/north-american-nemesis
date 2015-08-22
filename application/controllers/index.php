@@ -23,6 +23,36 @@ class Index extends CI_Controller {
     }
 
     public function contact() {
+		
+		 $post = $this->input->post();
+		 if ($post) {
+            $this->form_validation->set_rules('name', 'Name', 'trim|required');
+			$this->form_validation->set_rules('email', 'Email', 'trim|required|valid_email');
+            $this->form_validation->set_rules('subject', 'Subject', 'trim|required');
+            $this->form_validation->set_rules('message', 'Message', 'trim|required');
+
+            if ($this->form_validation->run()) {
+				## send mail admin
+				
+				$emailTpl = $this->load->view('email_templates/contact', $post, true);
+				$ret = sendEmail(FROM_EMAIL, "Contact from ".$post['name'], $emailTpl, FROM_EMAIL, FROM_NAME);
+				
+				## send mail user
+				$emailTpluser = $this->load->view('email_templates/contactuser', $post, true);
+				$ret = sendEmail($post['email'], "Thanks you for contact chat support", $emailTpl, FROM_EMAIL, FROM_NAME);
+				
+				$flash_arr = array('flash_type' => 'success',
+					'flash_msg' => 'Thanks you for contact us.we will reply to you soon.'
+				);
+			}
+			else
+			{
+				$flash_arr = array('flash_type' => 'error',
+					'flash_msg' => 'Please fill require fields correctly'
+				);
+			}
+			 $this->session->set_flashdata('flash_arr', $flash_arr);
+		 }
         $data['view'] = "contact";
         $this->load->view('content', $data);
     }

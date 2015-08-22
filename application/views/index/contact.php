@@ -24,17 +24,17 @@
     </div>
     <div class="contact_bottom">
       <h3>Contact Form</h3>
-      <p>Mauris a vulputate lectus at blandit nisi. Donec eleifend vel felis vitae auctor aenean rhoncus sapien sollicitudin leo interdum.</p>
-      <form method="post" action="http://www.templategarden.com/preview/one/template/contact-post.html">
+      <p>We are always here to reply you.We will contact you soon if you contact us.</p>
+      <form method="post" name="contactFrm" id="contactFrm" method="post" action="">
         <div class="contact-to">
-          <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
-          <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" style="margin-left: 10px">
-          <input type="text" class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" style="margin-left: 10px">
+          <input type="text" class="text" id="name" name="name"  placeholder="Name">
+          <input type="text" class="text" id="email" name="email"  placeholder="Email" style="margin-left: 10px">
+          <input type="text" class="text" id="subject" name="subject" placeholder="Subject" style="margin-left: 10px">
         </div>
         <div class="text2">
-          <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message..</textarea>
+          <textarea name="message" id="message" placeholder="Message.."></textarea>
         </div>
-        <div> <a href="#" class="submit">Send Message</a> </div>
+        <div> <a href="javascript:void(0);" onclick="javascript:validatecontactform();" class="submit">Send Message</a> </div>
       </form>
     </div>
   </div>

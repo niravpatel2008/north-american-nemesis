@@ -40,6 +40,12 @@ class Dashboard extends CI_Controller {
 					$flash_arr = array('flash_type' => 'success',
                             'flash_msg' => 'Profile successfully updated'
                         );
+					$data = array('u_id' => $this->front_session['u_id'],
+                        'u_email' => $this->front_session['u_email'],
+						'u_name'=> $post['fname'].' '.$post['lname']
+                    );
+                    $this->session->set_userdata('front_session', $data);
+					
                     $this->session->set_flashdata('flash_arr', $flash_arr);
 					
                     redirect(base_url() . "dashboard/profile");

@@ -17,7 +17,7 @@ else
     <link href="<?=public_path()?>css/stylenew.css" rel="stylesheet">
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900' rel='stylesheet' type='text/css'>
-   
+   	<script src="<?=public_path()?>js/jquery.js"></script>
 </head><!--/head-->
 
 <body>
@@ -33,7 +33,7 @@ else
 </div>
 <?php }?>
 <div class="header">
-  <div class="container"> <a class="navbar-brand" href="index.html"><i class="fa fa-paper-plane"></i> Chat Support</a>
+  <div class="container"> <a class="navbar-brand" href="<?=base_url()?>"><i class="fa fa-paper-plane"></i> Chat Support</a>
     <div class="menu"> <a class="toggleMenu" href="#"><img src="<?=public_path()?>images/nav_icon.png" alt="" /> </a>
       <ul class="nav" id="nav">
         <li <?php if($this->router->fetch_method()=='index'){echo 'class="current"';} ?>><a href="<?=base_url()?>">Home</a></li>

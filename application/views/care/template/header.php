@@ -15,7 +15,7 @@
                     <ul class="nav navbar-nav">
                         <!-- User Account: style can be found in dropdown.less -->
                         <li class="dropdown user user-menu">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="">
 								<i class="glyphicon glyphicon-user"></i>
                                 <span><?=$this->front_session['u_name'];?> <i class="fa fa-sign-out"></i></span>
 							</a>

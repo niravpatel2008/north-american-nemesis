@@ -9,7 +9,7 @@
     </div>
   </div>
 </div>
-	<script src="<?=public_path()?>js/jquery.js"></script>
+
 	<script type="text/javascript" src="<?=public_path()?>js/responsive-nav.js"></script> 
 	<?php  
 		if($this->router->fetch_method() == 'signin')

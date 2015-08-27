@@ -15,16 +15,13 @@
                     <ul class="nav navbar-nav">
                         <!-- User Account: style can be found in dropdown.less -->
                         <li class="dropdown user user-menu">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="">
-								<i class="glyphicon glyphicon-user"></i>
-                                <span><?=$this->front_session['u_name'];?> <i class="fa fa-sign-out"></i></span>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                <span><?=$this->front_session['u_name'];?> <i class="fa fa-angle-down"></i></span>
 							</a>
 							<ul class="dropdown-menu">
-								
 								<li><a href="<?=base_url()?>" target="_blank">Home</a></li>
 								<li><a href="<?=base_url()?>dashboard/change_password" >Change Password</a></li>
-								<li><a href="<?=base_url()?>../index/signout/" >Log Out</a></li>
-								
+								<li><a href="<?=base_url()?>index/signout/" >Log Out</a></li>
 							</ul>
                         </li>
                     </ul>

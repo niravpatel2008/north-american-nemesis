@@ -9,7 +9,6 @@
 		
 		echo '<script src="'.public_path().'js/btvalidationEngine.js"></script>';
 		echo '<script src="'.public_path().'js/common.js"></script>';
-		echo '<script src="'.public_path().'js/bootstrap.min.js"></script>';
 		echo '<script src="'.public_path().'js/dashboard.js"></script>';
 	}
 ?>
@@ -18,12 +17,7 @@
     <script src="<?=public_path()?>js/jquery.isotope.min.js"></script>
     <script src="<?=public_path()?>js/jquery.prettyPhoto.js"></script>
     <script src="<?=public_path()?>js/main.js"></script>
-	<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+	
 	<script type="text/javascript">
         function admin_path () {
             return '<?=admin_path()?>';

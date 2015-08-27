@@ -8,7 +8,6 @@
  <!-- Custom Fonts -->
 <link href="<?=public_path()?>font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="<?=public_path()?>css/validationEngine.css" rel="stylesheet" type="text/css">
-<link href="<?=public_path()?>css/dashboard.css" rel="stylesheet">
 <link href="<?=public_path()?>css/skin-blue.css" rel="stylesheet">
 <!--[if lt IE 9]>
 <script src="js/html5shiv.js"></script>

@@ -1,8 +1,7 @@
-<div class="register-container container" style="width:540px;margin:0 auto;">
+<!--div class="register-container container" style="width:540px;margin:0 auto;">
 	<div class="row">
 		
 		<div class="register span6">
-			<!--<form action="" method="post">-->
 			<form class="login-form" method="post" id="frmLogin" name="frmLogin" accept-charset="UTF-8">
 				<h2>Sign in</h2>
 				<label for="firstname"><span class="red">* </span>Username</label>
@@ -19,6 +18,33 @@
 			</form>
 		</div>
 	</div>
+</div-->
+<div class="register-container container" style="width:540px;margin:50px auto;">
+<div class="login-box clearfix animated flipInY">
+		<div class="page-icon animated bounceInDown">
+			 <i class="fa fa-sign-in"></i>
+		</div>
+		<div class="login-logo">
+			<h2>Sign in</h2>
+		</div> 
+		<hr>
+		<div class="login-form register span6">
+			<form id="frmLogin" class="login-form" accept-charset="UTF-8" name="frmLogin" method="post">
+				 <input type="text" id="email" class="input username validate[required] input-field" placeholder="User name"> 
+				 <input type="password" id="password" class="input password validate[required] allow-enter input-field" placeholder="Password"> 
+				 <button id="btnLogin" class="btn btn-login btn-primary btn-lg sumitbtn" onclick="javascript:userSignup('frmLogin');" title="Login" name="btnLogin" type="button">Sign in</button>
+			</form>	
+			<div class="login-links"> 
+				<a href="<?=base_url()?>index/forgetpassword/">
+				   Forgot password?
+				</a>
+				<br>
+				<a href="<?=base_url()?>signup">
+				  Don't have an account? <strong>Sign Up</strong>
+				</a>
+			</div>      		
+		</div> 			        	
+   </div>
 </div>
 
 <script type="text/javascript">

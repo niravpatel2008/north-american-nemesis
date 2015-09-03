@@ -29,7 +29,7 @@ else
 <?php } ?>
 <?php if($isLogin == false) { ?>
 <div class="signup-btn"  style="float: right;margin-right: 20px;margin-top: 33px;">
-	<a class="banner_btn2"  href="<?=base_url()?>signin">Login</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?=base_url()?>signup" class="banner_btn2" >Sign Up</a>
+	<a class="banner_btn2"  href="<?=base_url()?>signin">Sign in</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="<?=base_url()?>signup" class="banner_btn2" >Sign Up</a>
 </div>
 <?php }?>
 <div class="header">

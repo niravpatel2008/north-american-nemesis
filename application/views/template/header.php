@@ -33,7 +33,7 @@ else
 </div>
 <?php }?>
 <div class="header">
-  <div class="container"> <a class="navbar-brand" href="<?=base_url()?>"><i class="fa fa-paper-plane"></i> Reception zone</a>
+  <div class="container"> <a class="navbar-brand" href="<?=base_url()?>"><i class="fa fa-paper-plane"></i> Reception Zone</a>
     <div class="menu"> <a class="toggleMenu" href="#"><img src="<?=public_path()?>images/nav_icon.png" alt="" /> </a>
       <ul class="nav" id="nav">
         <li <?php if($this->router->fetch_method()=='index'){echo 'class="current"';} ?>><a href="<?=base_url()?>">Home</a></li>

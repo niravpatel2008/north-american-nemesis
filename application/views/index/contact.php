@@ -10,16 +10,16 @@
     <div class="row contact_top">
       <div class="col-md-4 contact_details">
         <h5>Mailing address:</h5>
-        <div class="contact_address">321 Awesome Street, New York, NY 17022</div>
+        <div class="contact_address">Ahmedabad ,IND 380024</div>
       </div>
       <div class="col-md-4 contact_details">
         <h5>Call us:</h5>
-        <div class="contact_address"> +1 800 123 1234<br>
+        <div class="contact_address"> +91 8460449163<br>
         </div>
       </div>
       <div class="col-md-4 contact_details">
         <h5>Email us:</h5>
-        <div class="contact_mail"> info@companyname.com</div>
+        <div class="contact_mail"> support@receptionzone.com</div>
       </div>
     </div>
     <div class="contact_bottom">

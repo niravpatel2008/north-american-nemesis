@@ -10,7 +10,7 @@ else
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>One</title>
+	<title>Reception zone | Support provider</title>
     <link href="<?=public_path()?>css/bootstrap.min.css" rel="stylesheet">
     <link href="<?=public_path()?>css/font-awesome.min.css" rel="stylesheet">
     <link href="<?=public_path()?>css/flexslider.css" rel="stylesheet">

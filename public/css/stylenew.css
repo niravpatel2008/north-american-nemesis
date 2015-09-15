@@ -1071,3 +1071,11 @@ label.checkbox input{
 
 .login-logo h2 {color:#FFF;}
 .page-icon .fa-sign-in,.page-icon .fa-user,.page-icon .fa-key{color:#FFF; font-size: 3em;line-height: 2em;text-shadow: 1px 1px rgb(20, 107, 93), 2px 2px rgb(20, 109, 94), 3px 3px rgb(20, 111, 96), 4px 4px rgb(21, 112, 97), 5px 5px rgb(21, 114, 99), 6px 6px rgb(21, 116, 100), 7px 7px rgb(22, 117, 102), 8px 8px rgb(22, 119, 103), 9px 9px rgb(22, 121, 104), 10px 10px rgb(23, 122, 106), 11px 11px rgb(23, 124, 107), 12px 12px rgb(23, 126, 109), 13px 13px rgb(24, 127, 110), 14px 14px rgb(24, 129, 112), 15px 15px rgb(24, 131, 113);}
+.pos-rel {position:relative;}
+.logo{
+	position:absolute;
+	left:0px;
+	top:-15px;
+	width:300px;
+}
+.logo img{width:100%;}

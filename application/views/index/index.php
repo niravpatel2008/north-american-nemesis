@@ -7,7 +7,7 @@ else
 <div class="banner text-center">
   <div class="container">
     <div class="banner-info">
-      <h1>Live chat to your website easily</h1>
+      <h1>Make live reception zone on your website easily</h1>
       <p>Stay in touch with large number of visitors of your website using innovative and powerful and enhance live chat application.</p>
       <a class="banner_btn" href="<?=base_url()?>index/about">Read More</a> </div>
   </div>

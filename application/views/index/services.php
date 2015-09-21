@@ -36,8 +36,8 @@
   </div>
    <div class="row">
     <div class="col-md-4 service_box"><i class="fa fa-cog fa-3x pull-left"></i>
-      <h2>Real-time Visitor Tracking</h2>
-      <p>Convert visitors into customers by tracking them real-time on your web pages.</p>
+      <h2>Customer Supportive</h2>
+      <p>Very easy to use and make convert your visitors into your customer.That will help to grow your business.</p>
     </div>
     <div class="col-md-4 service_box"><i class="fa fa-comments-o fa-3x pull-left"></i>
       <h2>Advanced Chat Routing</h2>

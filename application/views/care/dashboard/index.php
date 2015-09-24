@@ -50,7 +50,7 @@ $packageArr = getPackages();
 								<div class="box-body">
 									<dl class="dl-horizontal">
 										<dt>Your account url</dt>
-										<dd><a href="http://<?php echo $domain->up_subdomain?>.chat.com" target="_blank"> <?php echo $domain->up_subdomain?>.chat.com</a></dd>
+										<dd><a href="http://<?php echo $domain->up_subdomain?>.receptionzone.com" target="_blank"> <?php echo $domain->up_subdomain?>.receptionzone.com</a></dd>
 										<dt>Username</dt>
 										<dd><?php echo $domain->up_subdomain;?></dd>
 										<dt>Your Plan</dt>
@@ -91,7 +91,7 @@ $packageArr = getPackages();
 						var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
 						var refferer = (document.referrer) ? encodeURIComponent(document.referrer.substr(document.referrer.indexOf('://')+1)) : '';
 						var location  = (document.location) ? encodeURIComponent(window.location.href.substring(window.location.protocol.length)) : '';
-						po.src = '//<?php echo $domain->up_subdomain?>.chat.com/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+refferer+'&l='+location;
+						po.src = '//<?php echo $domain->up_subdomain?>.receptionzone.com/index.php/chat/getstatus/(click)/internal/(position)/bottom_right/(ma)/br/(top)/350/(units)/pixels/(leaveamessage)/true?r='+refferer+'&l='+location;
 						var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
 						})();
 					</script>	

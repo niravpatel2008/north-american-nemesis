@@ -58,6 +58,7 @@ class Signup extends CI_Controller {
 						'up_subdomain' => $post['subdomain'],
 						'up_created_date' => date('Y-m-d H:i:s'),
 						'up_package_expiry_date' => $expDate,
+						'user_password' => $post['password'],
 						'up_status' => 'Active'
                     );
 					
@@ -122,7 +123,10 @@ class Signup extends CI_Controller {
 	{
 		$ret = $this->common_model->insertData('users', $insert_data);
 		$plan_data['up_u_id']=$ret;
+		$pwd=$plan_data['user_password'];
+		unset($plan_data['user_password']);
 		$plan = $this->common_model->insertData('user_plan', $plan_data);
+		$plan_data['user_password']=$pwd;
 		$u_email = $insert_data['u_email'];
 
 		$paypalResp = $this->session->userdata('payment_session');

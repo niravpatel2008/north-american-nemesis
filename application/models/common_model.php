@@ -211,7 +211,7 @@ class common_model extends CI_Model{
 			$userEmail=$user['u_email'];
 			$userFname=$user['u_fname'];
 			$userLname=$user['u_lname'];
-			$password=sha1('abc123'.'b218d00d7a'.sha1('abc123'));
+			$password=sha1($data['user_password'].'b218d00d7a'.sha1($data['user_password']));
 			$this->db->query("INSERT INTO `lh_abstract_email_template` (`id`, `name`, `from_name`, `from_name_ac`, `from_email`, `from_email_ac`, `user_mail_as_sender`, `content`, `subject`, `bcc_recipients`, `subject_ac`, `reply_to`, `reply_to_ac`, `recipient`) VALUES
 (1, 'Send mail to user', 'Support Team', 0, '', 0, 0, 'Dear {user_chat_nick},\r\n\r\n{additional_message}\r\n\r\nLive Support response:\r\n{messages_content}\r\n\r\nSincerely,\r\nLive Support Team\r\n', '{name_surname} has responded to your request', '', 1, '', 1, ''),
 (2, 'Support request from user', '', 0, '', 0, 0, 'Hello,\r\n\r\nUser request data:\r\nName: {name}\r\nEmail: {email}\r\nPhone: {phone}\r\nDepartment: {department}\r\nCountry: {country}\r\nCity: {city}\r\nIP: {ip}\r\n\r\nMessage:\r\n{message}\r\n\r\nAdditional data, if any:\r\n{additional_data}\r\n\r\nURL of page from which user has send request:\r\n{url_request}\r\n\r\nLink to chat if any:\r\n{prefillchat}\r\n\r\nSincerely,\r\nLive Support Team', 'Support request from user', '', 0, '', 0, '$userEmail'),

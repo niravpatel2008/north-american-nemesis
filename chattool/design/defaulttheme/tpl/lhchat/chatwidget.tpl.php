@@ -171,4 +171,4 @@ jQuery('#id_Question').bind('keydown', 'return', function (evt){
 <?php endif;?>
 
 <?php include(erLhcoreClassDesign::designtpl('lhchat/chatwidget/chatwidget_post_multiinclude.tpl.php'));?>
-<div style="text-align:center;"><span style="color:#cccccc;">Powered By </span><a href="http://www.replyme.com" target="_blank">Reply Me</a></div>
+<div style="text-align:center;"><span style="color:#cccccc;">Powered By </span><a href="http://www.receptionzone.com" target="_blank">Reception Zone</a></div>

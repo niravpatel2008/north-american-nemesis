@@ -115,4 +115,4 @@
     });
 </script>
 <?php endif;?>
-<div style="text-align:center;"><span style="color:#cccccc;">Powered By </span><a href="http://www.replyme.com" target="_blank">Reply Me</a></div>
+<div style="text-align:center;"><span style="color:#cccccc;">Powered By </span><a href="http://www.receptionzone.com" target="_blank">Reception Zone</a></div>

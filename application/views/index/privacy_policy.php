@@ -1,5 +1,5 @@
 
-<div class="privacy">
+<div class="about">
   <div class="container">
     <section class="title-section">
       <h1 class="title-header">Privacy Policy</h1>

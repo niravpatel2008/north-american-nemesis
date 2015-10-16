@@ -8,10 +8,14 @@
 <div class="about_content">
   <div class="container">
     <div class="row">
-      <div class="col-md-8"> <img src="<?=public_path()?>images/a2.jpg" class="img-responsive" alt=""/>
-        <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero.</p>
+      <div class="col-md-8"> 
+        <p>Our team is one of the best organization which representing their knowledge in front of world.</p>
         <br>
-        <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero.</p>
+		<p>We are the current leader in online chat product for your valuable users. It is an online chatting support that has very loyal customers  and welcomes all new users from all over the world.
+			Started in the fall of 2015 as a hosted chat product targeted for general public, the site has quickly grown into one of the largest chat product on the Internet today. We have some of the most loyal customers are using on the Net today! Most of our users are from the USA, Canada, Australia, United Kingdom And India.Still we are searching clients from other countries who can get benefits by our product and Increase their revenue.
+			</p>
+        <br>
+        <p>The Chat Avenue team is committed to making your chat experience a great one. Please add this site to your "Favorites" and visit often. Also, be sure to tell all your friends about our wonderful community.</p>
       </div>
      <div class="col-md-4">
         <div class="block-heading-two">

@@ -11,15 +11,18 @@
       <div class="col-md-4 contact_details">
         <h5>Mailing address:</h5>
         <div class="contact_address">Ahmedabad ,IND 380024</div>
+		<i class="fa fa-map-marker fa-3x"></i>
       </div>
       <div class="col-md-4 contact_details">
         <h5>Call us:</h5>
         <div class="contact_address"> +91 8460449163<br>
         </div>
+		<i class="fa fa-mobile fa-3x"></i>
       </div>
       <div class="col-md-4 contact_details">
         <h5>Email us:</h5>
         <div class="contact_mail"> support@receptionzone.com</div>
+		<i class="fa fa-envelope fa-3x"></i>
       </div>
     </div>
     <div class="contact_bottom">
@@ -34,7 +37,7 @@
         <div class="text2">
           <textarea name="message" id="message" placeholder="Message.."></textarea>
         </div>
-        <div> <a href="javascript:void(0);" onclick="javascript:validatecontactform();" class="submit">Send Message</a> </div>
+        <div> <a href="javascript:void(0);" onclick="javascript:validatecontactform();" class="feature_btn">Send Message</a> </div>
       </form>
     </div>
   </div>

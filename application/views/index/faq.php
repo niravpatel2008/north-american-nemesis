@@ -85,9 +85,9 @@
           </div>
 		  <div class="panel">
             <div class="panel-heading">
-              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseSeven-alt3"> <i class="fa fa-angle-right"></i> How long my chat history will be there?  </a> </a> </h4>
+              <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordion-alt3" href="#collapseEight-alt3"> <i class="fa fa-angle-right"></i> How long my chat history will be there?  </a> </a> </h4>
             </div>
-            <div id="collapseSeven-alt3" class="panel-collapse collapse">
+            <div id="collapseEight-alt3" class="panel-collapse collapse">
               <div class="panel-body">
                 <p>Your chat history will be base on your plan but you can archive your chat history and save it in your local machine.You can also get your conversion in email if you want.</p>
               </div>

@@ -19,7 +19,7 @@
 		</div>
 	</div>
 </div-->
-<div class="register-container container" style="width:540px;margin:50px auto;">
+<div class="register-container container" style="">
 <div class="login-box clearfix animated flipInY">
 		<div class="page-icon animated bounceInDown">
 			 <i class="fa fa-sign-in"></i>
@@ -32,7 +32,7 @@
 			<form id="frmLogin" class="login-form" accept-charset="UTF-8" name="frmLogin" method="post">
 				 <input type="text" id="email" class="input username validate[required] input-field" placeholder="User name"> 
 				 <input type="password" id="password" class="input password validate[required] allow-enter input-field" placeholder="Password"> 
-				 <button id="btnLogin" class="btn btn-login btn-primary btn-lg sumitbtn" onclick="javascript:userSignup('frmLogin');" title="Login" name="btnLogin" type="button">Sign in</button>
+				 <button id="btnLogin" class="feature_btn" onclick="javascript:userSignup('frmLogin');" title="Login" name="btnLogin" type="button">Sign in</button>
 			</form>	
 			<div class="login-links"> 
 				<a href="<?=base_url()?>index/forgetpassword/">

@@ -9,7 +9,7 @@ else
     <div class="banner-info">
       <h1>Make live reception zone on your website easily</h1>
       <p>Stay in touch with large number of visitors of your website using innovative and powerful and enhance live chat application.</p>
-      <a class="banner_btn" href="<?=base_url()?>index/about">Read More</a> </div>
+      <a class="feature_btn" href="<?=base_url()?>index/about">Read More</a> </div>
   </div>
 </div>
 <div class="main">
@@ -53,7 +53,7 @@ else
 			</p>
         <br>
         <p>The Chat Avenue team is committed to making your chat experience a great one. Please add this site to your "Favorites" and visit often. Also, be sure to tell all your friends about our wonderful community.</p>
-        <a class="banner_btn" href="<?=base_url()?>index/about">Read More</a> </div>
+        <a class="feature_btn" href="<?=base_url()?>index/about">Read More</a> </div>
       <div class="col-md-4">
         <div class="block-heading-two">
           <h3><span>Why are we important ?</span></h3>
@@ -133,7 +133,7 @@ else
      <div class="row text-center">
        <div class="col-mg-3 col-xs-3 feature_grid1 fg1"> 
         <h3 class="m_a">Free</h3>
-        <h3 class="fa m_a price-tag">$0</h3>
+        <h3 class="m_a price-tag">$0</h3>
         <h4 class="m_2 plan-feature">20 days Validity</h4>
         <h4 class="m_2 plan-feature">20 days History</h4>
         <h4 class="m_2 plan-feature">Unlimited  Agent Create</h4>
@@ -142,7 +142,7 @@ else
 	   </div>
       <div class="col-mg-3 col-xs-3 feature_grid1 fg1">
         <h3 class="m_a">Standard</h3>
-        <h3 class="fa m_a price-tag">$12</h3>
+        <h3 class="m_a price-tag">$12</h3>
         <h4 class="m_2 plan-feature">1 month Validity</h4>
         <h4 class="m_2 plan-feature">2 months History</h4>
         <h4 class="m_2 plan-feature">Unlimited Agent Create</h4>
@@ -150,7 +150,7 @@ else
         <a href="<?=base_url()?>signup" class="feature_btn">Signup</a> </div>
       <div class="col-md-3 col-xs-3 feature_grid1 fg1">
         <h3 class="m_a">Premium</h3>
-        <h3 class="fa m_a price-tag">$60</h3>
+        <h3 class="m_a price-tag">$60</h3>
         <h4 class="m_2 plan-feature">6 months Validity</h4>
         <h4 class="m_2 plan-feature">4 months History</h4>
         <h4 class="m_2 plan-feature">Unlimited Agent Create</h4>
@@ -158,7 +158,7 @@ else
         <a href="<?=base_url()?>signup" class="feature_btn">Signup</a> </div>
       <div class="col-md-3 col-xs-3 feature_grid2 fg2">
         <h3 class="m_a">Enterprise</h3>
-        <h3 class="fa m_a price-tag">$105</h3>
+        <h3 class="m_a price-tag">$105</h3>
         <h4 class="m_2 plan-feature">12 months Validity</h4>
         <h4 class="m_2 plan-feature">12 months History</h4>
         <h4 class="m_2 plan-feature">Unlimited Agent Create</h4>

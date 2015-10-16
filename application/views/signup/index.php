@@ -47,7 +47,7 @@
 </div -->
 
 
-<div class="register-container container" style="width:540px;margin:50px auto;">
+<div class="register-container container" style="">
 <div class="login-box clearfix animated flipInY">
 		<div class="page-icon animated bounceInDown">
 			 <i class="fa fa-user"></i>
@@ -91,7 +91,7 @@
 						<option value="<?= $item->package_id;?>"><?= $item->package_name." - $".$item->package_price." for ".$item->package_description;?></option>
 					<?php }?>
 				</select>
-				<button type="submit" class="btn btn-login btn-primary btn-lg"  id="btnRegUser" name="btnRegUser" title="Register">REGISTER</button>
+				<button type="submit" class="feature_btn"  id="btnRegUser" name="btnRegUser" title="Register">REGISTER</button>
 			</form>
 			<div class="login-links"> 
 				<a href="<?=base_url()?>signin">

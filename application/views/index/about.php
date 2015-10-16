@@ -8,7 +8,7 @@
 <div class="about_content">
   <div class="container">
     <div class="row">
-      <div class="col-md-8"> <img src="<?=public_path()?>images/about_us.gif" class="img-responsive" alt=""/>
+		<div class="col-md-8"> 
         <p>Our team is one of the best organization which representing their knowledge in front of world.</p>
         <br>
         <p>We are the current leader in online chat product for your valuable users. It is an online chatting support that has very loyal customers and welcomes all new users from all over the world. Started in the fall of 2015 as a hosted chat product targeted for general public, the site has quickly grown into one of the largest chat product on the Internet today. We have some of the most loyal customers are using on the Net today! Most of our users are from the USA, Canada, Australia, United Kingdom And India.Still we are searching clients from other countries who can get benefits by our product and Increase their revenue.</p>

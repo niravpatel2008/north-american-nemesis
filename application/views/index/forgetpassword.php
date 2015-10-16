@@ -15,7 +15,7 @@
 	</div>
 </div-->
 
-<div class="register-container container" style="width:540px;margin:50px auto;">
+<div class="register-container container" style="">
 <div class="login-box clearfix animated flipInY">
 		<div class="page-icon animated bounceInDown">
 			 <i class="fa fa-key"></i>
@@ -29,7 +29,7 @@
 				 <label for="email">Email</label>
 				<input type="text" name="email" placeholder="enter your email..." class="validate[required,custom[email]] allow-enter input-field" id="email" value="<?= set_value('email'); ?>" ><?= form_error('email') ?>
 
-				<button type="button" class="btn btn-login btn-primary btn-lg sumitbtn"  id="btnForgetPwd" name="btnForgetPwd" title="Forget Password" onclick="javascript:userSignup('frmForgetPwd');">Submit</button>
+				<button type="button" class="feature_btn"  id="btnForgetPwd" name="btnForgetPwd" title="Forget Password" onclick="javascript:userSignup('frmForgetPwd');">Submit</button>
 			</form>	
 			<div class="login-links"> 
 				<a href="<?=base_url()?>signin">
